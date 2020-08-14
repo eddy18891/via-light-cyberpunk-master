@@ -120,6 +120,38 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &2819896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 669771783936704955, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2819897}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:hip_rotation_ctrl_grp 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2819897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8264318144010433081, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2819896}
+  m_LocalRotation: {x: -0.02485192, y: 0, z: -0, w: 0.9996911}
+  m_LocalPosition: {x: 1.811884e-15, y: -6.341594e-15, z: -1.07414074e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 119101023}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8105945
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +244,104 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &33482698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8850853724229843589, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 33482699}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:chest_ctrl_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &33482699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5769668211881999126, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33482698}
+  m_LocalRotation: {x: -0.011813837, y: 0.0053774896, z: -0.006550057, w: 0.9998943}
+  m_LocalPosition: {x: -0.06774116, y: -0.0070137163, z: 0.00094666856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2083863255}
+  m_Father: {fileID: 2027690686}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &37003141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7796888422003450899, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 37003142}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_mid_thumb_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &37003142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3988140571115816457, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37003141}
+  m_LocalRotation: {x: -0.048719663, y: -0.046997238, z: -0.043120667, w: 0.99677396}
+  m_LocalPosition: {x: -0.014439117, y: -0.0029632759, z: -0.005107011}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 528528044}
+  m_Father: {fileID: 1812115075}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &40452604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1561157431319375749, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 40452605}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_tip_thumb_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &40452605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -290503028939887359, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40452604}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.019327305, y: -0.0010224112, z: 0.0015586822}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791874425}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &40970560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -301,6 +431,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a715e6498a8f8444e8af75aa518ea006, type: 3}
+--- !u!1 &76289714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5119377200925404867, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 76289715}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:neck_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &76289715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4278458367717578537, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76289714}
+  m_LocalRotation: {x: 0, y: 0, z: 0.07077856, w: 0.9974921}
+  m_LocalPosition: {x: -0.059779774, y: -7.531123e-17, z: 5.624436e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 608246992}
+  m_Father: {fileID: 327702092}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &94921463
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +571,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &119101022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5903381983842133826, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 119101023}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:hip_rotation_ctrl_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &119101023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -647320009236646351, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119101022}
+  m_LocalRotation: {x: -0.007264604, y: 0.00634961, z: 0.10279234, w: 0.9946561}
+  m_LocalPosition: {x: 0.095691755, y: -0.0012666003, z: -0.001074068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2819897}
+  m_Father: {fileID: 2027690686}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &125756231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4036459053922026120, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 125756232}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_shoulder_FK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &125756232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5485162350816513112, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125756231}
+  m_LocalRotation: {x: 0.1644757, y: 0.9803166, z: -0.07303427, w: -0.08119879}
+  m_LocalPosition: {x: -0.02560044, y: 0.013497698, z: -0.067473896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 167752983}
+  m_Father: {fileID: 1458404532}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &129125428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -482,37 +711,400 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 114131b0668cd9044b6a7fea9be5a57a, type: 3}
---- !u!1 &282227706
+--- !u!1 &141734153
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: -7759404085987796095, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 282227707}
+  - component: {fileID: 141734154}
   m_Layer: 0
-  m_Name: Sylla (Missing Prefab)
+  m_Name: Scylla_rig_BetaTest:L_mid_fu_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &282227707
+--- !u!4 &141734154
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: -779573882822066182, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 282227706}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 141734153}
+  m_LocalRotation: {x: -0.12424161, y: 0.044389073, z: 0.07742501, w: 0.9882302}
+  m_LocalPosition: {x: -0.008558553, y: 0.007520053, z: -0.008525321}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 467842990}
-  - {fileID: 320196760}
-  m_Father: {fileID: 1727033117}
-  m_RootOrder: 4
+  - {fileID: 952256544}
+  m_Father: {fileID: 1279912676}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &145816762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -1823192417881901705, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145816763}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Ctrls_Switches_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &145816763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -2613063230189557341, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145816762}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 600020517}
+  m_Father: {fileID: 2049000489}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &167149162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1947339370413868767, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 167149163}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_mid_ring_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &167149163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1523686936279410005, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167149162}
+  m_LocalRotation: {x: -0.102120824, y: 0.18987624, z: -0.00673598, w: 0.97645944}
+  m_LocalPosition: {x: -0.012032097, y: 0.0058685825, z: -0.01570067}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1554725412}
+  m_Father: {fileID: 245012781}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &167639924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6276250493586343785, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 167639925}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_shoulder_Drive_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &167639925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6433470320723099547, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167639924}
+  m_LocalRotation: {x: 0.1644757, y: 0.9803166, z: -0.07303427, w: -0.08119879}
+  m_LocalPosition: {x: -0.02560044, y: 0.013497698, z: -0.067473896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1697636363}
+  m_Father: {fileID: 1458404532}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &167752982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6090970292532208825, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 167752983}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_elbow_FK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &167752983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4336776197048638679, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167752982}
+  m_LocalRotation: {x: 0.00074647093, y: 0.006855505, z: 0.13376625, w: 0.99098897}
+  m_LocalPosition: {x: -0.13861153, y: 0.0020238224, z: -0.000010168643}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1181642704}
+  m_Father: {fileID: 125756232}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &177935598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4025294207018658988, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 177935599}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_base_fu_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &177935599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -773648351063785696, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177935598}
+  m_LocalRotation: {x: -0.021038244, y: -0.025516529, z: 0.090848885, w: 0.99531543}
+  m_LocalPosition: {x: 0.020043707, y: -0.021703914, z: 0.024913624}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1725832385}
+  m_Father: {fileID: 2097203691}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &205730860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7428528808945019595, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 205730861}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_arm_jnt_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &205730861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -2209664754561430370, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205730860}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1360205553}
+  - {fileID: 339603447}
+  - {fileID: 1091029688}
+  m_Father: {fileID: 327702092}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &211736298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6001926135797638771, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 211736299}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_tip_pointer_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &211736299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -3450244873248798507, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211736298}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.007501509, y: 0.003859916, z: -0.008948051}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 952256544}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &225959748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -5644513955060710953, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 225959749}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_tip_pinki_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &225959749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -3332753664508542128, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225959748}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.004647654, y: 0.00258555, z: -0.008263613}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1873706216}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &235123030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4974615198786358201, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 235123031}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Root_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &235123031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -3551039547940808401, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235123030}
+  m_LocalRotation: {x: 0.036310907, y: -0, z: -0, w: 0.9993406}
+  m_LocalPosition: {x: 0.051969245, y: 0.00000011622972, z: 0.0000103925195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1756629896}
+  m_Father: {fileID: 1272266570}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &245012780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8011987466543091986, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 245012781}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_base_ring_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &245012781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7575081630407849314, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245012780}
+  m_LocalRotation: {x: -0.00006491407, y: -0.03409248, z: 0.14787169, w: 0.9884188}
+  m_LocalPosition: {x: -0.01871583, y: 0.020497274, z: -0.030806515}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 167149163}
+  m_Father: {fileID: 737435378}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &272067071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7469495056171097852, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272067072}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_tip_ring_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &272067072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -2177588289909164536, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272067071}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0069238264, y: 0.00090547407, z: 0.009040251}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 779542078}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &287046577
 GameObject:
@@ -709,80 +1301,304 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &320196759
+--- !u!1 &313459585
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3011769818542244678, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 320196760}
+  - component: {fileID: 313459586}
   m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
+  m_Name: Scylla_rig_BetaTest:Sternum_CTJ
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &320196760
+--- !u!4 &313459586
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1987810943484102027, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320196759}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 313459585}
+  m_LocalRotation: {x: 0.53004867, y: -0.52501357, z: 0.46689776, w: -0.47477964}
+  m_LocalPosition: {x: -0.0062996056, y: 0.7542324, z: -0.021900568}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 282227707}
-  m_RootOrder: 1
+  m_Father: {fileID: 1763176100}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &467842989
+--- !u!1 &327702091
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 9176546388928279091, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 467842990}
-  - component: {fileID: 467842991}
+  - component: {fileID: 327702092}
   m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
+  m_Name: Scylla_rig_BetaTest:sternum_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &467842990
+  m_IsActive: 1
+--- !u!4 &327702092
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: -8089581373772595306, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467842989}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 327702091}
+  m_LocalRotation: {x: -0.030624598, y: -0.0034469476, z: 0.04748658, w: 0.9983964}
+  m_LocalPosition: {x: -0.06822302, y: 4.6223217e-17, z: 3.3649968e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 282227707}
+  m_Children:
+  - {fileID: 1458404532}
+  - {fileID: 76289715}
+  - {fileID: 205730861}
+  m_Father: {fileID: 632970517}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &467842991
-MonoBehaviour:
+--- !u!1 &328207161
+GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7913525138625085266, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467842989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 280370ea9a8c54145afc40d0df849833, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canMove: 0
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 328207162}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &328207162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -5607040735608925957, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328207161}
+  m_LocalRotation: {x: 0.038763378, y: 0.0065204883, z: 0.044992838, w: 0.9982137}
+  m_LocalPosition: {x: 0.26229784, y: -0.0049579083, z: 0.0009884891}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1069594815}
+  m_Father: {fileID: 1554955935}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &335937319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -3865344999482175798, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 335937320}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_elbow_IK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &335937320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6036592614145939980, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335937319}
+  m_LocalRotation: {x: 0.00023982057, y: 0.00751182, z: 0.0664413, w: 0.997762}
+  m_LocalPosition: {x: 0.13929486, y: -0.000000043499085, z: -0.00000251969}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 767622878}
+  m_Father: {fileID: 1091029688}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &339603446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5049146613715827339, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 339603447}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_shoulder_FK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &339603447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4489804584232105947, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339603446}
+  m_LocalRotation: {x: 0.97937983, y: 0.18465543, z: 0.07563866, w: 0.031565394}
+  m_LocalPosition: {x: -0.025599007, y: 0.013799996, z: 0.067412205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 381783595}
+  m_Father: {fileID: 205730861}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &381783594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6437542831597784332, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 381783595}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_elbow_FK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &381783595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -3861365656988162399, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381783594}
+  m_LocalRotation: {x: 0.000786858, y: 0.0068509867, z: 0.1396039, w: 0.9901834}
+  m_LocalPosition: {x: 0.13929486, y: -0.000000043499085, z: -0.00000251969}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1568376062}
+  m_Father: {fileID: 339603447}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &383374861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3541391718687722511, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 383374862}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_wrist_drive_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &383374862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6437193692284949633, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383374861}
+  m_LocalRotation: {x: 0.44527033, y: -0.015617488, z: -0.0044120494, w: 0.8952491}
+  m_LocalPosition: {x: 0.14157581, y: 0.00000014924481, z: -0.0000018696418}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2097203691}
+  m_Father: {fileID: 1910331220}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &407579015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2574591154468236173, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 407579016}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_tip_pointer_jnt 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &407579016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5180894789350822944, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407579015}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.007673071, y: -0.0020747767, z: 0.0065404098}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2106425806}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &455736824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4396060321686212219, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 455736825}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Spine_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &455736825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3272030694108188725, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455736824}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1763176100}
+  - {fileID: 1553949648}
+  m_Father: {fileID: 600020517}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &492615541
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +1760,71 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &512752223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -1247766723884158296, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 512752224}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &512752224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7224250712902468717, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512752223}
+  m_LocalRotation: {x: -0.1487132, y: 0.56556, z: 0.39874467, w: 0.70641994}
+  m_LocalPosition: {x: -0.26244345, y: -0.0012545969, z: -0.00098849}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 799988467}
+  m_Father: {fileID: 1095660989}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &528528043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7362476408309863286, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 528528044}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_tip_thumb_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &528528044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7274709159218630698, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528528043}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.01532373, y: -0.004975288, z: -0.006192353}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 37003142}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &543010899
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,18 +1900,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543010899}
   m_CullTransparentMesh: 0
---- !u!1 &592090939 stripped
+--- !u!1 &562046240
 GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7318005222770871328, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 562046241}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_base_pinki_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &562046241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5957680345479460355, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562046240}
+  m_LocalRotation: {x: -0.076812156, y: 0.051530037, z: 0.0039752056, w: 0.9957052}
+  m_LocalPosition: {x: 0.007824624, y: -0.016183972, z: 0.036701053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2032209878}
+  m_Father: {fileID: 2097203691}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &592090939
+GameObject:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: cd5683f6da9f42643a3af5a31121713e,
     type: 3}
   m_PrefabInstance: {fileID: 1307110901}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &592090940 stripped
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 592090940}
+  - component: {fileID: 592090942}
+  - component: {fileID: 592090941}
+  m_Layer: 0
+  m_Name: Sylla_Rough
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &592090940
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: cd5683f6da9f42643a3af5a31121713e,
     type: 3}
   m_PrefabInstance: {fileID: 1307110901}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592090939}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 879980688}
+  - {fileID: 963782017}
+  m_Father: {fileID: 1727033117}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &592090941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1044,6 +1982,191 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMove: 0
+--- !u!95 &592090942
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592090939}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 8796017c6b6c94e4694d8bbb353d0cea, type: 3}
+  m_Controller: {fileID: 9100000, guid: d84aaa05b7f5b6c47bb1173bda0be77c, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &597615511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5629284147093166317, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 597615512}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_top_pointer_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &597615512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -5599724412429872907, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597615511}
+  m_LocalRotation: {x: -0.15142214, y: 0.03612323, z: 0.062452655, w: 0.98583275}
+  m_LocalPosition: {x: -0.009343004, y: 0.003847331, z: -0.0061238273}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1557521124}
+  m_Father: {fileID: 1625196912}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &599891261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7889121160258099929, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 599891262}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_base_thumb_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &599891262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4957724063359795429, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599891261}
+  m_LocalRotation: {x: 0.02773967, y: -0.26558465, z: 0.055103905, w: 0.9621117}
+  m_LocalPosition: {x: 0.019748032, y: -0.0044485074, z: 0.0022405344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791874425}
+  m_Father: {fileID: 2097203691}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &600020516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6761745255041314209, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 600020517}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Ctrl_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &600020517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1375433474802232189, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600020516}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 455736825}
+  m_Father: {fileID: 145816763}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &608246991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3794994303984490358, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 608246992}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:head_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &608246992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 441116648376256734, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608246991}
+  m_LocalRotation: {x: -0.0016531169, y: -0.0025228143, z: 0.015687997, w: 0.9998724}
+  m_LocalPosition: {x: -0.08201847, y: 2.7195335e-18, z: 1.28032976e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1511054515}
+  m_Father: {fileID: 76289715}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &632970516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -1154683047865884411, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 632970517}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:chest_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &632970517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5962376306307985089, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632970516}
+  m_LocalRotation: {x: -0.030823002, y: 0.0033949348, z: -0.007909512, w: 0.9994878}
+  m_LocalPosition: {x: -0.06776049, y: 1.1650862e-17, z: 9.587556e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 327702092}
+  m_Father: {fileID: 1082377420}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &657999858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,6 +2401,173 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &737435377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8264746482058907701, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737435378}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_palm_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &737435378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8477908109229215742, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737435377}
+  m_LocalRotation: {x: 0.118813194, y: 0.32183498, z: 0.30096257, w: 0.88979053}
+  m_LocalPosition: {x: -0.022575164, y: 0.000028974884, z: -0.00009866795}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1279912676}
+  - {fileID: 1278654225}
+  - {fileID: 2012162810}
+  - {fileID: 245012781}
+  - {fileID: 1812115075}
+  m_Father: {fileID: 1078210098}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &749280066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1664176063160727410, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 749280067}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &749280067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7640291579045511563, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749280066}
+  m_LocalRotation: {x: 0.9152626, y: -0.3084115, z: -0.11214241, w: 0.23366842}
+  m_LocalPosition: {x: -0.036294304, y: 0.002052827, z: 0.057464153}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1554955935}
+  m_Father: {fileID: 781376451}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &751907622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2753541129329997331, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 751907623}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_wrist_IK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &751907623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1343307362509652399, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751907622}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1415771, y: 4.493224e-17, z: 6.258403e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1040081169}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &754285873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7308213001567210673, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754285874}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_base_ring_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &754285874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -1749008140776319971, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754285873}
+  m_LocalRotation: {x: -0.04104583, y: 0.02784105, z: 0.0011441679, w: 0.9987687}
+  m_LocalPosition: {x: 0.014722538, y: -0.019987572, z: 0.030271059}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 965504407}
+  m_Father: {fileID: 2097203691}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &767622877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -2905503863779895930, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 767622878}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_wrist_IK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &767622878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5636782248719095394, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767622877}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.14157581, y: 0.00000014924481, z: -0.0000018696418}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 335937320}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &773379110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1840,6 +3130,106 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &779542077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7506871294802661490, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 779542078}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_top_ring_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &779542078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 977865380257458809, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779542077}
+  m_LocalRotation: {x: 0.15196435, y: -0.021366647, z: -0.04481069, w: 0.98713845}
+  m_LocalPosition: {x: 0.009036253, y: -0.0039821016, z: 0.0109750135}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 272067072}
+  m_Father: {fileID: 965504407}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &781376450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7625356297609068840, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 781376451}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:root_jnt1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &781376451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7598343862572548158, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781376450}
+  m_LocalRotation: {x: -0.4406669, y: 0.54303795, z: -0.4442149, w: 0.559996}
+  m_LocalPosition: {x: -0.00581979, y: 0.5220214, z: -0.022590829}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1987046315}
+  - {fileID: 749280067}
+  m_Father: {fileID: 1519287479}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &786659186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -5652044411179051353, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 786659187}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_base_pointer_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &786659187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7815260552753538963, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786659186}
+  m_LocalRotation: {x: -0.0012452637, y: -0.03951723, z: 0.1237073, w: 0.99153084}
+  m_LocalPosition: {x: 0.025644783, y: -0.018981326, z: 0.01509733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1989449487}
+  m_Father: {fileID: 2097203691}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &796356789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1910,12 +3300,267 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: -6057140222963153312, guid: 114131b0668cd9044b6a7fea9be5a57a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 114131b0668cd9044b6a7fea9be5a57a, type: 3}
+--- !u!1 &799988466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -1292941746903620906, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 799988467}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &799988467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -5263411120519112928, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799988466}
+  m_LocalRotation: {x: 0.16562146, y: -0.34393528, z: 0.7713064, w: 0.5092784}
+  m_LocalPosition: {x: 0.0041985926, y: -0.017441286, z: -0.0717586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1818186168}
+  m_Father: {fileID: 512752224}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &844371311 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 114131b0668cd9044b6a7fea9be5a57a,
     type: 3}
   m_PrefabInstance: {fileID: 796356789}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &879980687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1750741514867153191, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 879980688}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Geo_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &879980688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8294643515766582507, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879980687}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1745828139}
+  m_Father: {fileID: 592090940}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &926859079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: d868b40dffd68454e9328360a1a81167,
+    type: 3}
+  m_PrefabInstance: {fileID: 1642640950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &926859080 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+    type: 3}
+  m_PrefabInstance: {fileID: 1642640950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &926859081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926859079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280370ea9a8c54145afc40d0df849833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canMove: 0
+--- !u!1 &952256543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -1721386596207596006, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 952256544}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_top_fu_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &952256544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7414590016498770755, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952256543}
+  m_LocalRotation: {x: -0.14625807, y: 0.08204609, z: -0.15676314, w: 0.9732946}
+  m_LocalPosition: {x: -0.0113341315, y: 0.0052714646, z: -0.00942894}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 211736299}
+  m_Father: {fileID: 141734154}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &961366991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3270999239232413207, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 961366992}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_tip_ring_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &961366992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4159072033311186219, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961366991}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0061601344, y: -0.000027389413, z: -0.0071494845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1554725412}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &963782016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7708836106422118614, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963782017}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:World_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &963782017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 9192501318714236400, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963782016}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2049000489}
+  m_Father: {fileID: 592090940}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &965504406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5385273387806758739, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 965504407}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_mid_ring_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &965504407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3044439090930033177, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965504406}
+  m_LocalRotation: {x: -0.16733901, y: 0.06452185, z: 0.080320634, w: 0.98050153}
+  m_LocalPosition: {x: 0.00824232, y: -0.010662716, z: 0.016350508}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 779542078}
+  m_Father: {fileID: 754285874}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1040081168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5192239269544257566, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1040081169}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_elbow_IK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1040081169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6171548865510884333, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040081168}
+  m_LocalRotation: {x: 0.00022928658, y: 0.00813591, z: 0.07196503, w: 0.99737394}
+  m_LocalPosition: {x: -0.13929695, y: -2.908077e-17, z: 1.8316058e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 751907623}
+  m_Father: {fileID: 1327115923}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1043902538
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,6 +3873,171 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1069594814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2005971674823966377, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1069594815}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1069594815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6301656876624798901, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069594814}
+  m_LocalRotation: {x: 0.6740086, y: 0.7095997, z: 0.15395838, w: -0.13593252}
+  m_LocalPosition: {x: 0.0505065, y: 0.055788703, z: 0.009074967}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1442894474}
+  m_Father: {fileID: 328207162}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1078210097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7871428761917159908, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1078210098}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_wrist_Drive_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1078210098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4148275589628102880, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078210097}
+  m_LocalRotation: {x: 0.5320939, y: 0.061937157, z: 0.039070416, w: 0.84351254}
+  m_LocalPosition: {x: -0.1415771, y: 4.493224e-17, z: 6.258403e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 737435378}
+  m_Father: {fileID: 1697636363}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1082377419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8675287189296856915, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1082377420}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1082377420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8321543833853278125, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082377419}
+  m_LocalRotation: {x: -0.030882834, y: 0.004443271, z: -0.12700072, w: 0.9914118}
+  m_LocalPosition: {x: -0.09602647, y: 0.00811053, z: 1.622519e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 632970517}
+  m_Father: {fileID: 1381914750}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1091029687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5147220096129824276, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1091029688}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_shoulder_IK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1091029688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3875212819032359852, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091029687}
+  m_LocalRotation: {x: 0.8971222, y: 0.014305104, z: 0.44104022, w: -0.021228462}
+  m_LocalPosition: {x: -0.025599007, y: 0.013799996, z: 0.067412205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 335937320}
+  m_Father: {fileID: 205730861}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1095660988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7316240420910825396, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1095660989}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1095660989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1695262681967157793, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095660988}
+  m_LocalRotation: {x: 0.025440793, y: 0.16002312, z: -0.2323514, w: 0.9590403}
+  m_LocalPosition: {x: -0.27304488, y: -0.010709698, z: 0.0033459594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 512752224}
+  m_Father: {fileID: 1987046315}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106899386
 GameObject:
   m_ObjectHideFlags: 0
@@ -2568,6 +4378,38 @@ MonoBehaviour:
   player: {fileID: 1727033117}
   aggroDistance: 2
   aggroAngle: 45
+--- !u!1 &1181642703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 499976654769682447, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1181642704}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_wrist_FK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1181642704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7762316552457709142, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181642703}
+  m_LocalRotation: {x: 0.5320939, y: 0.061937157, z: 0.039070416, w: 0.84351254}
+  m_LocalPosition: {x: -0.1415771, y: 4.493224e-17, z: 6.258403e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 167752983}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1182111774
 GameObject:
   m_ObjectHideFlags: 0
@@ -3077,6 +4919,105 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1635848047}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1272266569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6499524837377057704, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1272266570}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:root_ctrl_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1272266570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 277934045865689859, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272266569}
+  m_LocalRotation: {x: -0.50021464, y: 0.50090057, z: -0.49979305, w: 0.49909002}
+  m_LocalPosition: {x: -0.006093277, y: 0.5730471, z: -0.01798395}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 235123031}
+  m_Father: {fileID: 1553949648}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1278654224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1353826691055579933, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1278654225}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_base_pinki_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1278654225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3578336196629797597, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278654224}
+  m_LocalRotation: {x: -0.16793579, y: 0.011818719, z: 0.012371033, w: 0.98564947}
+  m_LocalPosition: {x: -0.014022369, y: 0.011092382, z: -0.036523998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1879945908}
+  m_Father: {fileID: 737435378}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1279912675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 229619871579023885, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1279912676}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_base_fu_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1279912676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4674138885885622911, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279912675}
+  m_LocalRotation: {x: 0, y: 0, z: 0.12000642, w: 0.9927731}
+  m_LocalPosition: {x: -0.027438773, y: 0.021751374, z: -0.024889907}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 141734154}
+  m_Father: {fileID: 737435378}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1289714657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3374,6 +5315,103 @@ PrefabInstance:
       objectReference: {fileID: 9000000, guid: 8796017c6b6c94e4694d8bbb353d0cea, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd5683f6da9f42643a3af5a31121713e, type: 3}
+--- !u!1 &1310942846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7232676245591122769, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310942847}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:sternum_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1310942847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8685203610377275447, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310942846}
+  m_LocalRotation: {x: -0.06396585, y: 0, z: -0, w: 0.9979521}
+  m_LocalPosition: {x: -0.00000001909098, y: 2.1414592e-10, z: 0.0000054560032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1917322693}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1318743594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7126518944843870556, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1318743595}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Chest_CTJ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1318743595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5074500923518934586, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318743594}
+  m_LocalRotation: {x: -0.49962953, y: 0.4992469, z: -0.50044256, w: 0.5006797}
+  m_LocalPosition: {x: -0.0063883658, y: 0.68537706, z: -0.0147155635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1763176100}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1327115922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6122853859832357161, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1327115923}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_shoulder_IK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1327115923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6037901710955116169, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327115922}
+  m_LocalRotation: {x: -0.08806786, y: 0.88232565, z: -0.16887093, w: -0.43038142}
+  m_LocalPosition: {x: -0.02560044, y: 0.013497698, z: -0.067473896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1040081169}
+  m_Father: {fileID: 1458404532}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1333959307
 GameObject:
   m_ObjectHideFlags: 0
@@ -3529,6 +5567,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333959307}
   m_CullTransparentMesh: 0
+--- !u!1 &1350611518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4799007641563601429, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1350611519}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_tip_pointer_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1350611519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -122416341643361334, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350611518}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.007556991, y: -0.0010929658, z: 0.009925372}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1611931187}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1360205552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6829934811385033866, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1360205553}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_shoulder_drive_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1360205553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3380839728847619056, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360205552}
+  m_LocalRotation: {x: 0.97937983, y: 0.1846554, z: 0.07563862, w: 0.031565398}
+  m_LocalPosition: {x: -0.025599007, y: 0.013799996, z: 0.067412205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1910331220}
+  m_Father: {fileID: 205730861}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1369873088
 GameObject:
   m_ObjectHideFlags: 0
@@ -3580,6 +5683,39 @@ Transform:
   - {fileID: 1289714658}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1381914749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8536064825750422046, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1381914750}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:root_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1381914750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -2216138629637899316, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381914749}
+  m_LocalRotation: {x: -0.42649862, y: 0.53141975, z: -0.45768827, w: 0.57115096}
+  m_LocalPosition: {x: -0.008130549, y: 0.5185856, z: -0.022578893}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1082377420}
+  m_Father: {fileID: 1519287479}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1392370822
 GameObject:
@@ -3707,6 +5843,105 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1434394897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -2576740426756053519, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1434394898}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Root_CTJ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1434394898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1572978670351141393, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434394897}
+  m_LocalRotation: {x: -0.48176232, y: 0.48242232, z: -0.5176516, w: 0.5169242}
+  m_LocalPosition: {x: -0.0061550685, y: 0.5210779, z: -0.01798312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1763176100}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1442894473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1894042592759282924, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1442894474}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_toe_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1442894474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6536920989734702697, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442894473}
+  m_LocalRotation: {x: 0.99991673, y: 0.003043248, z: 0.0072041224, w: -0.010266703}
+  m_LocalPosition: {x: 0.0331359, y: -0.00042833854, z: -0.0073060854}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1069594815}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1458404531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2102495763625353740, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1458404532}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_arm_jnt_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1458404532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6758357224468953948, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458404531}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 167639925}
+  - {fileID: 125756232}
+  - {fileID: 1327115923}
+  m_Father: {fileID: 327702092}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1465069255
 GameObject:
@@ -3869,6 +6104,72 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1511054514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1081577215034069677, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511054515}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:brain_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1511054515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1063974424117452796, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511054514}
+  m_LocalRotation: {x: 0.0011053217, y: -0.00018684976, z: -0.029887808, w: 0.99955267}
+  m_LocalPosition: {x: -0.04700067, y: -3.494613e-17, z: 6.2775305e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 608246992}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1519287478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -3318428843593455952, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1519287479}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Jnt_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1519287479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6907520925977801231, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519287478}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1381914750}
+  - {fileID: 781376451}
+  m_Father: {fileID: 2049000489}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1544887733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4079,6 +6380,332 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544887733}
   m_CullTransparentMesh: 0
+--- !u!1 &1553949647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6544342021998606099, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1553949648}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Spine_ctrl_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1553949648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2497310718582171567, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553949647}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1272266570}
+  m_Father: {fileID: 455736825}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1554725411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4656221995775671149, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1554725412}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_top_ring_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1554725412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -949497799389667640, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554725411}
+  m_LocalRotation: {x: 0, y: 0.022989517, z: -0, w: 0.9997357}
+  m_LocalPosition: {x: -0.0064971047, y: 0.003486268, z: -0.009928832}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 961366992}
+  m_Father: {fileID: 167149163}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1554955934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6288511322930131829, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1554955935}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1554955935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -5432788394740366697, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554955934}
+  m_LocalRotation: {x: 0.0026438106, y: 0.072543204, z: -0.10717171, w: 0.991587}
+  m_LocalPosition: {x: 0.27305827, y: 0.008916323, z: -0.0033093917}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 328207162}
+  m_Father: {fileID: 749280067}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1557521123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6208566956943953794, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1557521124}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_tip_pointer_jnt 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1557521124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7405253882917813308, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557521123}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.010999572, y: 0.0024651107, z: -0.0078023314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 597615512}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1568376061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7233023991444249025, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1568376062}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_wrist_FK_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1568376062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2764497586913935330, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568376061}
+  m_LocalRotation: {x: 0.44527033, y: -0.015617488, z: -0.0044120485, w: 0.8952491}
+  m_LocalPosition: {x: 0.14157581, y: 0.00000014924481, z: -0.0000018696418}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 381783595}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1569429424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5033324485078058124, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1569429425}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Hip_CTJ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1569429425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -952182500480188473, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569429424}
+  m_LocalRotation: {x: -0.4777611, y: 0.47818768, z: -0.514954, w: 0.52716535}
+  m_LocalPosition: {x: -0.005819568, y: 0.6177276, z: -0.022600489}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1763176100}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1571389826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1268090977475532135, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1571389827}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_top_pinki_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1571389827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8784480648306024286, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571389826}
+  m_LocalRotation: {x: 0, y: 0.15180549, z: -0, w: 0.9884104}
+  m_LocalPosition: {x: 0.004395382, y: -0.004068478, z: 0.010661973}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1599592072}
+  m_Father: {fileID: 2032209878}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1599592071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -2376882101965245955, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1599592072}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_tip_pinki_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1599592072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3776529938369338227, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599592071}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0030275725, y: -0.004055446, z: 0.014305251}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1571389827}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1611931186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8232820425422967800, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611931187}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_top_fu_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611931187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -3792108443577010355, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611931186}
+  m_LocalRotation: {x: 0.0030882773, y: 0.02772681, z: 0.11065474, w: 0.9934673}
+  m_LocalPosition: {x: 0.010857277, y: -0.0007528971, z: 0.0138891665}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1350611519}
+  m_Father: {fileID: 1725832385}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1625196911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8489898204262611433, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1625196912}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_mid_pointer_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1625196912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8113182241163470793, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625196911}
+  m_LocalRotation: {x: 0.0029596807, y: -0.013100262, z: 0.1801684, w: 0.9835441}
+  m_LocalPosition: {x: -0.016337302, y: 0.0061193993, z: -0.010747109}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 597615512}
+  m_Father: {fileID: 2012162810}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1635848047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4168,6 +6795,128 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: d84aaa05b7f5b6c47bb1173bda0be77c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86d0c63bed056b7458ad136c9b29bc2a, type: 3}
+--- !u!1001 &1642640950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1727033117}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_Name
+      value: Jinju_FinalWalkCycle_Textured
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d84aaa05b7f5b6c47bb1173bda0be77c, type: 2}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.16908176
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.36042342
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.07003596
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9146592
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d868b40dffd68454e9328360a1a81167,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d868b40dffd68454e9328360a1a81167, type: 3}
+--- !u!1 &1697636362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -9007464674038010195, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1697636363}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_elbow_Drive_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697636363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6892485611673436306, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697636362}
+  m_LocalRotation: {x: 0.00074647093, y: 0.006855505, z: 0.13376625, w: 0.99098897}
+  m_LocalPosition: {x: -0.13965748, y: 0.0029411567, z: 0.0000039283063}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1078210098}
+  m_Father: {fileID: 167639925}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1715372899
 GameObject:
   m_ObjectHideFlags: 0
@@ -4243,6 +6992,39 @@ RectTransform:
   m_AnchoredPosition: {x: 198.99, y: 30}
   m_SizeDelta: {x: 41.959, y: 8.6}
   m_Pivot: {x: 0.5, y: 0}
+--- !u!1 &1725832384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1004429150602456970, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1725832385}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_mid_fu_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1725832385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7099967359334979399, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725832384}
+  m_LocalRotation: {x: -0.015641034, y: 0.061414454, z: -0.0029299709, w: 0.99798554}
+  m_LocalPosition: {x: 0.011967623, y: -0.013886441, z: 0.011834987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1611931187}
+  m_Father: {fileID: 177935599}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1727033113
 GameObject:
   m_ObjectHideFlags: 0
@@ -4322,7 +7104,7 @@ RectTransform:
   - {fileID: 1142365818}
   - {fileID: 1187341842}
   - {fileID: 592090940}
-  - {fileID: 282227707}
+  - {fileID: 926859080}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4492,6 +7274,328 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1745828138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4807423428714197505, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1745828139}
+  - component: {fileID: 1745828140}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:pCylinder10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1745828139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -1816924893217190152, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745828138}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 879980688}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1745828140
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8418275042587391849, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745828138}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -171196317053435985, guid: cd5683f6da9f42643a3af5a31121713e, type: 3}
+  - {fileID: -365120393494587422, guid: cd5683f6da9f42643a3af5a31121713e, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 1215159475682530551, guid: cd5683f6da9f42643a3af5a31121713e, type: 3}
+  m_Bones:
+  - {fileID: 1381914750}
+  - {fileID: 1082377420}
+  - {fileID: 632970517}
+  - {fileID: 327702092}
+  - {fileID: 76289715}
+  - {fileID: 608246992}
+  - {fileID: 167639925}
+  - {fileID: 1697636363}
+  - {fileID: 1078210098}
+  - {fileID: 1987046315}
+  - {fileID: 1095660989}
+  - {fileID: 512752224}
+  - {fileID: 749280067}
+  - {fileID: 1554955935}
+  - {fileID: 328207162}
+  - {fileID: 1511054515}
+  - {fileID: 737435378}
+  - {fileID: 1812115075}
+  - {fileID: 37003142}
+  - {fileID: 528528044}
+  - {fileID: 2012162810}
+  - {fileID: 1625196912}
+  - {fileID: 597615512}
+  - {fileID: 1557521124}
+  - {fileID: 1279912676}
+  - {fileID: 141734154}
+  - {fileID: 952256544}
+  - {fileID: 211736299}
+  - {fileID: 167149163}
+  - {fileID: 245012781}
+  - {fileID: 1554725412}
+  - {fileID: 1278654225}
+  - {fileID: 961366992}
+  - {fileID: 1879945908}
+  - {fileID: 1873706216}
+  - {fileID: 225959749}
+  - {fileID: 799988467}
+  - {fileID: 1818186168}
+  - {fileID: 1069594815}
+  - {fileID: 1442894474}
+  - {fileID: 1360205553}
+  - {fileID: 1910331220}
+  - {fileID: 383374862}
+  - {fileID: 2097203691}
+  - {fileID: 599891262}
+  - {fileID: 1791874425}
+  - {fileID: 40452605}
+  - {fileID: 786659187}
+  - {fileID: 1989449487}
+  - {fileID: 2106425806}
+  - {fileID: 407579016}
+  - {fileID: 177935599}
+  - {fileID: 1725832385}
+  - {fileID: 1611931187}
+  - {fileID: 1350611519}
+  - {fileID: 754285874}
+  - {fileID: 965504407}
+  - {fileID: 779542078}
+  - {fileID: 272067072}
+  - {fileID: 562046241}
+  - {fileID: 2032209878}
+  - {fileID: 1571389827}
+  - {fileID: 1599592072}
+  - {fileID: 1091029688}
+  - {fileID: 335937320}
+  - {fileID: 767622878}
+  - {fileID: 1327115923}
+  - {fileID: 1040081169}
+  - {fileID: 751907623}
+  - {fileID: 781376451}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1381914750}
+  m_AABB:
+    m_Center: {x: 0.042008996, y: -0.13559629, z: 0.054380506}
+    m_Extent: {x: 0.5435092, y: 0.3657654, z: 0.28194308}
+  m_DirtyAABB: 0
+--- !u!1 &1756629895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8465687918933681893, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1756629896}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:hip_ctrl_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1756629896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -5541305965044735403, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756629895}
+  m_LocalRotation: {x: 0.0078928415, y: -0.0063579637, z: 0.0065860753, w: 0.999927}
+  m_LocalPosition: {x: -0.09665013, y: 0.0046182885, z: -0.00012393463}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2027690686}
+  m_Father: {fileID: 235123031}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1763176099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 98191991501026127, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1763176100}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:Spine_CTJ_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1763176100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7350243945216803005, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763176099}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1318743595}
+  - {fileID: 1569429425}
+  - {fileID: 1434394898}
+  - {fileID: 313459586}
+  m_Father: {fileID: 455736825}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791874424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8412062243459070902, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791874425}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_mid_thumb_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791874425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7727527147950558816, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791874424}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0138860345, y: -0.0017013706, z: 0.002236658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 40452605}
+  m_Father: {fileID: 599891262}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1812115074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -949071544466550350, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1812115075}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_base_thumb_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1812115075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1290418092482507868, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812115074}
+  m_LocalRotation: {x: 0.05850781, y: -0.13199048, z: -0.098451406, w: 0.984613}
+  m_LocalPosition: {x: -0.02251303, y: 0.0003636442, z: 0.005155204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 37003142}
+  m_Father: {fileID: 737435378}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1818186167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3761229379402617306, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818186168}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_toe_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1818186168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7866340391774141637, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818186167}
+  m_LocalRotation: {x: 0.99991673, y: 0.003043248, z: 0.0072041224, w: -0.010266703}
+  m_LocalPosition: {x: -0.03313591, y: 0.00042830384, z: 0.007306181}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 799988467}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1836838531 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4350184731897578284, guid: a623cd3cd96004c4e8f28e083aea6626,
@@ -4504,6 +7608,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26fb78e4c218b8a4ebc3f489d4e4f625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1873706215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4968476262046153324, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1873706216}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_top_pinki_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1873706216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -7975473652498151193, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873706215}
+  m_LocalRotation: {x: 0, y: -0.038046554, z: -0, w: 0.999276}
+  m_LocalPosition: {x: -0.0042428635, y: 0.0043574055, z: -0.009879195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 225959749}
+  m_Father: {fileID: 1879945908}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1879945907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3025710804830219205, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1879945908}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_mid_pinki_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1879945908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8212412781988401361, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879945907}
+  m_LocalRotation: {x: -0.12498837, y: 0.16254596, z: -0.014486414, w: 0.97864544}
+  m_LocalPosition: {x: -0.005084802, y: 0.0075791446, z: -0.011077686}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1873706216}
+  m_Father: {fileID: 1278654225}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1907813647
 GameObject:
   m_ObjectHideFlags: 0
@@ -4577,6 +7747,138 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907813647}
   m_CullTransparentMesh: 0
+--- !u!1 &1910331219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1190310260251950495, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1910331220}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_elbow_drive_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1910331220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -3666436920053557245, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910331219}
+  m_LocalRotation: {x: 0.000786858, y: 0.0068509867, z: 0.1396039, w: 0.9901834}
+  m_LocalPosition: {x: 0.13929486, y: -0.000000043499085, z: -0.00000251969}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 383374862}
+  m_Father: {fileID: 1360205553}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1917322692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6680385972722433167, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1917322693}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:sternum_ctrl_grp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1917322693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7888777837247466830, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917322692}
+  m_LocalRotation: {x: 0.006163478, y: -0.0060417424, z: 0.001911162, w: 0.99996096}
+  m_LocalPosition: {x: -0.0688562, y: 0.007175289, z: 0.00010985544}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1310942847}
+  m_Father: {fileID: 2083863255}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1987046314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4190906793166698033, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987046315}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1987046315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7898634390780321935, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987046314}
+  m_LocalRotation: {x: 0.020392815, y: 0.9540515, z: 0.2981522, w: 0.021800075}
+  m_LocalPosition: {x: -0.036270425, y: 0.0023143187, z: -0.0574631}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1095660989}
+  m_Father: {fileID: 781376451}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1989449486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4478849570538540824, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1989449487}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_mid_pointer_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1989449487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -4697037128422577731, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989449486}
+  m_LocalRotation: {x: -0.13687962, y: 0.100823246, z: -0.03436698, w: 0.98484397}
+  m_LocalPosition: {x: 0.014793217, y: -0.009813305, z: 0.012987385}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2106425806}
+  m_Father: {fileID: 786659187}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2004616983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4696,6 +7998,243 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a623cd3cd96004c4e8f28e083aea6626, type: 3}
+--- !u!1 &2012162809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3870433613537662099, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2012162810}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:L_base_pointer_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2012162810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3100601112842392809, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012162809}
+  m_LocalRotation: {x: 0.07475129, y: -0.019100059, z: -0.0128537165, w: 0.99693644}
+  m_LocalPosition: {x: -0.027304523, y: 0.017178291, z: -0.012054971}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1625196912}
+  m_Father: {fileID: 737435378}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2027690685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -6283324119503973436, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2027690686}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:hip_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2027690686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1652002731673998739, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027690685}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 33482699}
+  - {fileID: 119101023}
+  m_Father: {fileID: 1756629896}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2032209877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 944505417535085171, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2032209878}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_mid_pinki_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2032209878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3943910193489416139, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032209877}
+  m_LocalRotation: {x: -0.117484085, y: 0.06115822, z: -0.0072491835, w: 0.99116325}
+  m_LocalPosition: {x: 0.005743637, y: -0.00343747, z: 0.009938308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1571389827}
+  m_Father: {fileID: 562046241}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2049000488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8750332705844354465, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2049000489}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:World_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2049000489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5573512511364995781, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049000488}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 145816763}
+  - {fileID: 1519287479}
+  m_Father: {fileID: 963782017}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2083863254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -3571500061776271660, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2083863255}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:chest_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2083863255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 606982632291415996, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083863254}
+  m_LocalRotation: {x: -0.030160543, y: 0, z: -0, w: 0.9995451}
+  m_LocalPosition: {x: 3.1974422e-16, y: 5.8555283e-10, z: -0.00007432797}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1917322693}
+  m_Father: {fileID: 33482699}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2097203690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8740482929004242891, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2097203691}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_palm_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2097203691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 465896447612411365, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097203690}
+  m_LocalRotation: {x: 0.118813194, y: 0.32183498, z: 0.30096257, w: 0.88979053}
+  m_LocalPosition: {x: 0.022578321, y: -0.000029302402, z: 0.00010279328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 177935599}
+  - {fileID: 562046241}
+  - {fileID: 786659187}
+  - {fileID: 754285874}
+  - {fileID: 599891262}
+  m_Father: {fileID: 383374862}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2106425805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -5409914100127764358, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2106425806}
+  m_Layer: 0
+  m_Name: Scylla_rig_BetaTest:R_top_pointer_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2106425806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: -8341201122995922156, guid: cd5683f6da9f42643a3af5a31121713e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307110901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106425805}
+  m_LocalRotation: {x: -0.058999404, y: -0.00961296, z: -0.100159034, w: 0.99317414}
+  m_LocalPosition: {x: 0.009678675, y: -0.00738134, z: 0.008629289}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 407579016}
+  m_Father: {fileID: 1989449487}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2138754624
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,2296 @@
+fileFormatVersion: 2
+guid: 7371673cc74dcb7499e7d199fdc5e845
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Idle
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'Scylla_rig_2_3:L_ball_jnt'
+      : rotation error = 23.364424 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Scylla_rig_2_3:sternum_jnt' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Scylla_rig_2_3:R_base_fu_jnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Scylla_rig_2_3:root_jnt1'
+      has translation animation that will be discarded.\n\t'Scylla_rig_2_3:root_jnt1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Scylla_rig_2_3:L_ball_jnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Scylla_rig_2_3:Jnt_grp
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_hip_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_hip_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_knee_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_knee_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_ankle_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_ankle_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:root_jnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:hip_jnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:neck_jnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:head_jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_arm_jnt_grp
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_arm_jnt_grp
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_shoulder_Drive_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_shoulder_drive_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_elbow_Drive_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_elbow_drive_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_wrist_Drive_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_wrist_drive_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_toe_jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_toe_jnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:brain_jnt
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_base_thumb_jnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_mid_thumb_jnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_tip_thumb_jnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_base_pointer_jnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_mid_pointer_jnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_top_pointer_jnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_mid_fu_jnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_top_fu_jnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_tip_pointer_jnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_base_ring_jnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_mid_ring_jnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_top_ring_jnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_base_pinki_jnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_mid_pinki_jnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:L_top_pinki_jnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_base_thumb_jnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_mid_thumb_jnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_tip_thumb_jnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_base_pointer_jnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_mid_pointer_jnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_top_pointer_jnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_mid_fu_jnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_top_fu_jnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_tip_pointer_jnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_base_ring_jnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_mid_ring_jnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_top_ring_jnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_base_pinki_jnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_mid_pinki_jnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:R_top_pinki_jnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scylla_rig_2_3:chest_jnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Marijane_IdleCycle_Final(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:World_grp
+      parentName: Marijane_IdleCycle_Final(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:World_ctrl
+      parentName: Scylla_rig_2_3:World_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Jnt_grp
+      parentName: Scylla_rig_2_3:World_ctrl
+      position: {x: -0.0018099619, y: 0.0053805043, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:root_jnt
+      parentName: Scylla_rig_2_3:Jnt_grp
+      position: {x: 0.0070841997, y: 0.092627496, z: -0.0037653213}
+      rotation: {x: -0.44291824, y: 0.5522286, z: -0.44175434, w: 0.55110806}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: Scylla_rig_2_3:hip_jnt
+      parentName: Scylla_rig_2_3:root_jnt
+      position: {x: -0.016004412, y: 0.0013517549, z: 2.7041984e-18}
+      rotation: {x: -0.00077490514, y: -0.000102519996, z: 0.12691258, w: -0.9919136}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: Scylla_rig_2_3:chest_jnt
+      parentName: Scylla_rig_2_3:hip_jnt
+      position: {x: -0.011293415, y: 1.9418104e-18, z: 1.597926e-18}
+      rotation: {x: 0.00074615044, y: -0.0000017630009, z: -0.007816875, w: 0.99996924}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: Scylla_rig_2_3:sternum_jnt
+      parentName: Scylla_rig_2_3:chest_jnt
+      position: {x: -0.011370503, y: 7.70387e-18, z: 5.608328e-19}
+      rotation: {x: -0.0007448313, y: -0.00006444834, z: -0.04794882, w: -0.9988495}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000004}
+    - name: Scylla_rig_2_3:R_arm_jnt_grp
+      parentName: Scylla_rig_2_3:sternum_jnt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.014161862, y: 0.030259782, z: -0.00081662793, w: 0.9994414}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_shoulder_drive_jnt
+      parentName: Scylla_rig_2_3:R_arm_jnt_grp
+      position: {x: -0.004266501, y: 0.0022999994, z: 0.011235368}
+      rotation: {x: 0.7032131, y: 0.0032826795, z: 0.71023244, w: 0.032409433}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: Scylla_rig_2_3:R_elbow_drive_jnt
+      parentName: Scylla_rig_2_3:R_shoulder_drive_jnt
+      position: {x: 0.02321581, y: -0.0000000072498474, z: -0.00000041994832}
+      rotation: {x: -0.00034086822, y: 0.013828897, z: 0.037709977, w: 0.99919295}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000006}
+    - name: Scylla_rig_2_3:R_wrist_drive_jnt
+      parentName: Scylla_rig_2_3:R_elbow_drive_jnt
+      position: {x: 0.023595968, y: 0.000000024874137, z: -0.00000031160695}
+      rotation: {x: 2.9103827e-11, y: 4.6566123e-10, z: -0.000000007462403, w: 1}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.000001}
+    - name: Scylla_rig_2_3:R_palm_jnt
+      parentName: Scylla_rig_2_3:R_wrist_drive_jnt
+      position: {x: 0.0037630536, y: -0.0000048837337, z: 0.000017132214}
+      rotation: {x: 0.118813165, y: 0.32183492, z: 0.3009625, w: 0.88979053}
+      scale: {x: 1.000001, y: 1.0000002, z: 1.0000006}
+    - name: Scylla_rig_2_3:R_base_thumb_jnt
+      parentName: Scylla_rig_2_3:R_palm_jnt
+      position: {x: 0.0032913387, y: -0.0007414179, z: 0.00037342237}
+      rotation: {x: -0.02302383, y: -0.1108557, z: 0.06796984, w: 0.9912422}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: Scylla_rig_2_3:R_mid_thumb_jnt
+      parentName: Scylla_rig_2_3:R_base_thumb_jnt
+      position: {x: 0.0023143392, y: -0.00028356176, z: 0.00037277635}
+      rotation: {x: 0.0001398474, y: -0.008281089, z: -0.0071681757, w: 0.99994004}
+      scale: {x: 1.0000006, y: 0.99999976, z: 1.0000001}
+    - name: Scylla_rig_2_3:R_tip_thumb_jnt
+      parentName: Scylla_rig_2_3:R_mid_thumb_jnt
+      position: {x: 0.0032212175, y: -0.00017040185, z: 0.00025978035}
+      rotation: {x: -0, y: -0, z: -4.178303e-16, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Scylla_rig_2_3:R_base_pointer_jnt
+      parentName: Scylla_rig_2_3:R_palm_jnt
+      position: {x: 0.0042741303, y: -0.0031635542, z: 0.0025162217}
+      rotation: {x: 0.000000052154064, y: -0.024947196, z: 0.000000070780516, w: 0.9996888}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: Scylla_rig_2_3:R_mid_pointer_jnt
+      parentName: Scylla_rig_2_3:R_base_pointer_jnt
+      position: {x: 0.0024655364, y: -0.0016355509, z: 0.002164564}
+      rotation: {x: -0.02878127, y: 0.055002224, z: -0.02900504, w: 0.9976498}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Scylla_rig_2_3:R_top_pointer_jnt
+      parentName: Scylla_rig_2_3:R_mid_pointer_jnt
+      position: {x: 0.0016131125, y: -0.0012302233, z: 0.0014382149}
+      rotation: {x: 0.0025141821, y: 0.015350874, z: -0.15766439, w: 0.98737025}
+      scale: {x: 1.0000008, y: 0.99999994, z: 1.0000005}
+    - name: Scylla_rig_2_3:R_tip_pointer_jnt 1
+      parentName: Scylla_rig_2_3:R_top_pointer_jnt
+      position: {x: 0.0012788452, y: -0.0003457961, z: 0.0010900683}
+      rotation: {x: -0, y: -0, z: -0.000000006868502, w: 1}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000006}
+    - name: Scylla_rig_2_3:R_base_fu_jnt
+      parentName: Scylla_rig_2_3:R_palm_jnt
+      position: {x: 0.0033406178, y: -0.003617319, z: 0.004152271}
+      rotation: {x: 0.00000007450579, y: -0.000000029802315, z: 0.000000022351736,
+        w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: Scylla_rig_2_3:R_mid_fu_jnt
+      parentName: Scylla_rig_2_3:R_base_fu_jnt
+      position: {x: 0.0019946038, y: -0.0023144067, z: 0.001972498}
+      rotation: {x: 0.1818062, y: 0.027615095, z: -0.08182534, w: 0.97953486}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000007}
+    - name: Scylla_rig_2_3:R_top_fu_jnt
+      parentName: Scylla_rig_2_3:R_mid_fu_jnt
+      position: {x: 0.0018095461, y: -0.00012548285, z: 0.0023148612}
+      rotation: {x: 0.0093948115, y: 0.022544833, z: 0.10541227, w: 0.99412864}
+      scale: {x: 0.9999998, y: 0.99999964, z: 0.9999997}
+    - name: Scylla_rig_2_3:R_tip_pointer_jnt
+      parentName: Scylla_rig_2_3:R_top_fu_jnt
+      position: {x: 0.0012594985, y: -0.00018216098, z: 0.0016542287}
+      rotation: {x: 2.3283062e-10, y: -0, z: 0.000000001178705, w: 1}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000001}
+    - name: Scylla_rig_2_3:R_base_ring_jnt
+      parentName: Scylla_rig_2_3:R_palm_jnt
+      position: {x: 0.0024537565, y: -0.0033312622, z: 0.0050451765}
+      rotation: {x: 0.016877158, y: 0.026947405, z: 0.009065627, w: 0.99945325}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: Scylla_rig_2_3:R_mid_ring_jnt
+      parentName: Scylla_rig_2_3:R_base_ring_jnt
+      position: {x: 0.00137372, y: -0.0017771194, z: 0.0027250845}
+      rotation: {x: 0.06590196, y: -0.07272776, z: -0.08064906, w: 0.99189883}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1}
+    - name: Scylla_rig_2_3:R_top_ring_jnt
+      parentName: Scylla_rig_2_3:R_mid_ring_jnt
+      position: {x: 0.0015060422, y: -0.00066368363, z: 0.0018291689}
+      rotation: {x: 0.15304537, y: -0.019909041, z: -0.04548134, w: 0.9869712}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.000001}
+    - name: Scylla_rig_2_3:R_tip_ring_jnt
+      parentName: Scylla_rig_2_3:R_top_ring_jnt
+      position: {x: 0.0011539711, y: 0.00015091234, z: 0.0015067086}
+      rotation: {x: -0, y: -0, z: 0.0000000016298143, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Scylla_rig_2_3:R_base_pinki_jnt
+      parentName: Scylla_rig_2_3:R_palm_jnt
+      position: {x: 0.001304104, y: -0.0026973288, z: 0.0061168424}
+      rotation: {x: 0.07926389, y: 0.045198854, z: -0.030174896, w: 0.9953712}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Scylla_rig_2_3:R_mid_pinki_jnt
+      parentName: Scylla_rig_2_3:R_base_pinki_jnt
+      position: {x: 0.00095727283, y: -0.0005729117, z: 0.0016563847}
+      rotation: {x: -0.0052433233, y: 0.024337973, z: 0.011448483, w: 0.9996245}
+      scale: {x: 1.0000006, y: 0.9999999, z: 1.0000005}
+    - name: Scylla_rig_2_3:R_top_pinki_jnt
+      parentName: Scylla_rig_2_3:R_mid_pinki_jnt
+      position: {x: 0.00073256367, y: -0.0006780796, z: 0.0017769955}
+      rotation: {x: 0.011181164, y: 0.1294756, z: -0.010901346, w: 0.99145967}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000011}
+    - name: Scylla_rig_2_3:R_tip_pinki_jnt
+      parentName: Scylla_rig_2_3:R_top_pinki_jnt
+      position: {x: 0.00050459546, y: -0.00067590765, z: 0.0023842084}
+      rotation: {x: -0, y: -0.000000014901163, z: -3.552714e-15, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Scylla_rig_2_3:R_shoulder_FK_jnt
+      parentName: Scylla_rig_2_3:R_arm_jnt_grp
+      position: {x: -0.004266501, y: 0.0022999994, z: 0.011235368}
+      rotation: {x: 0.89962935, y: -0.017213354, z: 0.43575794, w: 0.022042332}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: Scylla_rig_2_3:R_elbow_FK_jnt
+      parentName: Scylla_rig_2_3:R_shoulder_FK_jnt
+      position: {x: 0.02321581, y: -0.0000000072498474, z: -0.00000041994832}
+      rotation: {x: 0.00024324746, y: 0.0068917144, z: 0.060953163, w: 0.9981168}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000006}
+    - name: Scylla_rig_2_3:R_wrist_FK_jnt
+      parentName: Scylla_rig_2_3:R_elbow_FK_jnt
+      position: {x: 0.023595968, y: 0.000000024874137, z: -0.00000031160695}
+      rotation: {x: 2.9103827e-11, y: 4.6566123e-10, z: -0.000000007462403, w: 1}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.000001}
+    - name: Scylla_rig_2_3:R_shoulder_IK_jnt
+      parentName: Scylla_rig_2_3:R_arm_jnt_grp
+      position: {x: -0.004266501, y: 0.0022999994, z: 0.011235368}
+      rotation: {x: 0.8987422, y: 0.014131862, z: 0.43776616, w: -0.020580003}
+      scale: {x: 1.0000005, y: 1.000001, z: 1.0000008}
+    - name: Scylla_rig_2_3:R_elbow_IK_jnt
+      parentName: Scylla_rig_2_3:R_shoulder_IK_jnt
+      position: {x: 0.02321581, y: -0.0000000072498474, z: -0.00000041994832}
+      rotation: {x: 0.00024025512, y: 0.0074806325, z: 0.066164665, w: 0.9977807}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: Scylla_rig_2_3:R_wrist_IK_jnt
+      parentName: Scylla_rig_2_3:R_elbow_IK_jnt
+      position: {x: 0.023595968, y: 0.000000024874137, z: -0.00000031160695}
+      rotation: {x: -0, y: -0, z: -0.000000001670514, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Scylla_rig_2_3:L_arm_jnt_grp
+      parentName: Scylla_rig_2_3:sternum_jnt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.022777319, y: -0.03804113, z: 0.0010321318, w: 0.9990161}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_shoulder_IK_jnt
+      parentName: Scylla_rig_2_3:L_arm_jnt_grp
+      position: {x: -0.00426674, y: 0.0022496164, z: -0.01124565}
+      rotation: {x: 0.0902446, y: -0.8805143, z: 0.16946962, w: 0.43339425}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000007}
+    - name: Scylla_rig_2_3:L_elbow_IK_jnt
+      parentName: Scylla_rig_2_3:L_shoulder_IK_jnt
+      position: {x: -0.023216158, y: -4.846795e-18, z: 3.0526765e-18}
+      rotation: {x: 0.0002269521, y: 0.008230715, z: 0.07280536, w: 0.9973122}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: Scylla_rig_2_3:L_wrist_IK_jnt
+      parentName: Scylla_rig_2_3:L_elbow_IK_jnt
+      position: {x: -0.02359618, y: 7.488707e-18, z: 1.0430672e-16}
+      rotation: {x: -0, y: -0, z: 0.0000000021174171, w: 1}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1}
+    - name: Scylla_rig_2_3:L_shoulder_FK_jnt
+      parentName: Scylla_rig_2_3:L_arm_jnt_grp
+      position: {x: -0.00426674, y: 0.0022496164, z: -0.01124565}
+      rotation: {x: 0.014253453, y: -0.90103775, z: 0.04074538, w: 0.43158752}
+      scale: {x: 1.0000012, y: 1.0000006, z: 1.0000005}
+    - name: Scylla_rig_2_3:L_elbow_FK_jnt
+      parentName: Scylla_rig_2_3:L_shoulder_FK_jnt
+      position: {x: -0.02310192, y: 0.00033730373, z: -0.0000016947738}
+      rotation: {x: 0.00024324979, y: 0.0068915477, z: 0.060953103, w: 0.9981169}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: Scylla_rig_2_3:L_wrist_FK_jnt
+      parentName: Scylla_rig_2_3:L_elbow_FK_jnt
+      position: {x: -0.02359618, y: 7.488707e-18, z: 1.0430672e-16}
+      rotation: {x: 0.000000014872054, y: -9.3132235e-10, z: 1.2960296e-11, w: 1}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000002}
+    - name: Scylla_rig_2_3:L_shoulder_Drive_jnt
+      parentName: Scylla_rig_2_3:L_arm_jnt_grp
+      position: {x: -0.00426674, y: 0.0022496164, z: -0.01124565}
+      rotation: {x: 0.03400321, y: -0.69717246, z: 0.03456256, w: 0.7152621}
+      scale: {x: 1.0000011, y: 1.0000006, z: 1.0000006}
+    - name: Scylla_rig_2_3:L_elbow_Drive_jnt
+      parentName: Scylla_rig_2_3:L_shoulder_Drive_jnt
+      position: {x: -0.023276247, y: 0.0004901928, z: 0.0000006547177}
+      rotation: {x: -0.00051911524, y: 0.015397452, z: 0.025713485, w: 0.9995507}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: Scylla_rig_2_3:L_wrist_Drive_jnt
+      parentName: Scylla_rig_2_3:L_elbow_Drive_jnt
+      position: {x: -0.02359618, y: 7.488707e-18, z: 1.0430672e-16}
+      rotation: {x: 0.000000014872054, y: -9.3132235e-10, z: -8.981258e-11, w: 1}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000005}
+    - name: Scylla_rig_2_3:L_palm_jnt
+      parentName: Scylla_rig_2_3:L_wrist_Drive_jnt
+      position: {x: -0.0037625274, y: 0.000004829147, z: -0.000016444657}
+      rotation: {x: 0.11881324, y: 0.321835, z: 0.3009626, w: 0.8897905}
+      scale: {x: 1.0000007, y: 1.0000007, z: 0.9999998}
+    - name: Scylla_rig_2_3:L_base_thumb_jnt
+      parentName: Scylla_rig_2_3:L_palm_jnt
+      position: {x: -0.0037521715, y: 0.00006060737, z: 0.00085920066}
+      rotation: {x: -0.017295787, y: 0.020022377, z: -0.09777101, w: 0.9948572}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000006}
+    - name: Scylla_rig_2_3:L_mid_thumb_jnt
+      parentName: Scylla_rig_2_3:L_base_thumb_jnt
+      position: {x: -0.0024065196, y: -0.0004938793, z: -0.00085116853}
+      rotation: {x: 0.008348298, y: 0.045585863, z: -0.014655092, w: 0.99881804}
+      scale: {x: 1.000001, y: 1.0000006, z: 1.0000001}
+    - name: Scylla_rig_2_3:L_tip_thumb_jnt
+      parentName: Scylla_rig_2_3:L_mid_thumb_jnt
+      position: {x: -0.002553955, y: -0.00082921475, z: -0.0010320588}
+      rotation: {x: 7.105425e-15, y: -0, z: 8.881781e-16, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 0.99999994}
+    - name: Scylla_rig_2_3:L_base_pointer_jnt
+      parentName: Scylla_rig_2_3:L_palm_jnt
+      position: {x: -0.0045507536, y: 0.0028630486, z: -0.002009162}
+      rotation: {x: 0.0052607195, y: -0.00038275114, z: -0.10616019, w: 0.9943351}
+      scale: {x: 0.99999976, y: 0.99999964, z: 1}
+    - name: Scylla_rig_2_3:L_mid_pointer_jnt
+      parentName: Scylla_rig_2_3:L_base_pointer_jnt
+      position: {x: -0.0027228834, y: 0.0010198998, z: -0.0017911848}
+      rotation: {x: 0.004692167, y: -0.012584115, z: 0.046458416, w: 0.99882996}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000006}
+    - name: Scylla_rig_2_3:L_top_pointer_jnt
+      parentName: Scylla_rig_2_3:L_mid_pointer_jnt
+      position: {x: -0.0015571673, y: 0.0006412218, z: -0.0010206379}
+      rotation: {x: 0.02251808, y: 0.008355257, z: -0.029105876, w: 0.9992878}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+    - name: Scylla_rig_2_3:L_tip_pointer_jnt 1
+      parentName: Scylla_rig_2_3:L_top_pointer_jnt
+      position: {x: -0.0018332622, y: 0.0004108518, z: -0.0013003886}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000001}
+    - name: Scylla_rig_2_3:L_base_fu_jnt
+      parentName: Scylla_rig_2_3:L_palm_jnt
+      position: {x: -0.0045731287, y: 0.003625229, z: -0.004148318}
+      rotation: {x: 0.000000022351736, y: -0, z: -0.00000007450579, w: 1}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1.0000002}
+    - name: Scylla_rig_2_3:L_mid_fu_jnt
+      parentName: Scylla_rig_2_3:L_base_fu_jnt
+      position: {x: -0.0014264254, y: 0.0012533421, z: -0.001420887}
+      rotation: {x: -0.02025641, y: 0.030614333, z: -0.042101912, w: 0.9984388}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000001}
+    - name: Scylla_rig_2_3:L_top_fu_jnt
+      parentName: Scylla_rig_2_3:L_mid_fu_jnt
+      position: {x: -0.001889022, y: 0.0008785774, z: -0.00157149}
+      rotation: {x: -0.13715275, y: 0.11528374, z: -0.15032956, w: 0.9722653}
+      scale: {x: 1.0000007, y: 1.0000013, z: 1.0000004}
+    - name: Scylla_rig_2_3:L_tip_pointer_jnt
+      parentName: Scylla_rig_2_3:L_top_fu_jnt
+      position: {x: -0.0012502515, y: 0.00064331933, z: -0.0014913419}
+      rotation: {x: -0, y: -0, z: 0.000000014901159, w: 1}
+      scale: {x: 1.0000012, y: 1.000001, z: 1}
+    - name: Scylla_rig_2_3:L_base_ring_jnt
+      parentName: Scylla_rig_2_3:L_palm_jnt
+      position: {x: -0.003119305, y: 0.0034162125, z: -0.005134419}
+      rotation: {x: 0.041975662, y: 0.025047552, z: -0.02280551, w: 0.9985443}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Scylla_rig_2_3:L_mid_ring_jnt
+      parentName: Scylla_rig_2_3:L_base_ring_jnt
+      position: {x: -0.0020053496, y: 0.0009780971, z: -0.0026167782}
+      rotation: {x: 0.044194985, y: 0.04100965, z: -0.010040785, w: 0.9981304}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000007}
+    - name: Scylla_rig_2_3:L_top_ring_jnt
+      parentName: Scylla_rig_2_3:L_mid_ring_jnt
+      position: {x: -0.0010828507, y: 0.00058104465, z: -0.0016548054}
+      rotation: {x: 0.08517719, y: -0.045467988, z: -0.076604255, w: 0.9923757}
+      scale: {x: 1.0000011, y: 1.0000012, z: 1.0000001}
+    - name: Scylla_rig_2_3:L_tip_ring_jnt
+      parentName: Scylla_rig_2_3:L_top_ring_jnt
+      position: {x: -0.0010266891, y: -0.000004564902, z: -0.0011915807}
+      rotation: {x: -0, y: -0, z: 1.7097426e-14, w: 1}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000004}
+    - name: Scylla_rig_2_3:L_base_pinki_jnt
+      parentName: Scylla_rig_2_3:L_palm_jnt
+      position: {x: -0.0023370613, y: 0.0018487303, z: -0.006087333}
+      rotation: {x: -0.010838846, y: 0.08161693, z: 0.032105118, w: 0.9960876}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000004}
+    - name: Scylla_rig_2_3:L_mid_pinki_jnt
+      parentName: Scylla_rig_2_3:L_base_pinki_jnt
+      position: {x: -0.000847467, y: 0.0012631908, z: -0.0018462811}
+      rotation: {x: 0.027322944, y: 0.05372929, z: -0.06583302, w: 0.99600834}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000004}
+    - name: Scylla_rig_2_3:L_top_pinki_jnt
+      parentName: Scylla_rig_2_3:L_mid_pinki_jnt
+      position: {x: -0.0007071439, y: 0.0007262342, z: -0.0016465326}
+      rotation: {x: 0.017216638, y: -0.04263949, z: -0.010249494, w: 0.99888957}
+      scale: {x: 1.0000007, y: 1.000001, z: 1.0000005}
+    - name: Scylla_rig_2_3:L_tip_pinki_jnt
+      parentName: Scylla_rig_2_3:L_top_pinki_jnt
+      position: {x: -0.000774609, y: 0.000430925, z: -0.0013772688}
+      rotation: {x: 8.881781e-16, y: 0.000000003725289, z: -9.436893e-16, w: 1}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000001}
+    - name: Scylla_rig_2_3:neck_jnt
+      parentName: Scylla_rig_2_3:sternum_jnt
+      position: {x: -0.009963295, y: -1.2551872e-17, z: 9.374059e-19}
+      rotation: {x: 0.000000009255017, y: 0.0000000036161505, z: 0.07077851, w: 0.9974921}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000004}
+    - name: Scylla_rig_2_3:head_jnt
+      parentName: Scylla_rig_2_3:neck_jnt
+      position: {x: -0.013669746, y: 4.532556e-19, z: 2.133883e-18}
+      rotation: {x: -0.001105322, y: 0.00018689451, z: 0.029887859, w: 0.9995527}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1}
+    - name: Scylla_rig_2_3:brain_jnt
+      parentName: Scylla_rig_2_3:head_jnt
+      position: {x: -0.0078334445, y: -5.8243553e-18, z: 1.0462551e-19}
+      rotation: {x: 0.0011053671, y: -0.00018686532, z: -0.02988784, w: 0.9995527}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: Scylla_rig_2_3:root_jnt1
+      parentName: Scylla_rig_2_3:Jnt_grp
+      position: {x: 0.001827533, y: 0.09194297, z: -0.0038240894}
+      rotation: {x: -0.45647758, y: 0.5630365, z: -0.42789403, w: 0.53993046}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.000001}
+    - name: Scylla_rig_2_3:R_hip_jnt
+      parentName: Scylla_rig_2_3:root_jnt1
+      position: {x: -0.0060490505, y: 0.00034213785, z: 0.009577359}
+      rotation: {x: 0.9819102, y: -0.07358023, z: -0.026816647, w: 0.17239246}
+      scale: {x: 1.0000007, y: 1.0000002, z: 0.9999999}
+    - name: Scylla_rig_2_3:R_knee_jnt
+      parentName: Scylla_rig_2_3:R_hip_jnt
+      position: {x: 0.04550971, y: 0.0014860539, z: -0.00055156526}
+      rotation: {x: 0.00017720461, y: 0.00792803, z: 0.025727235, w: 0.9996376}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000002}
+    - name: Scylla_rig_2_3:R_ankle_jnt
+      parentName: Scylla_rig_2_3:R_knee_jnt
+      position: {x: 0.043716304, y: -0.00082631805, z: 0.00016474818}
+      rotation: {x: 0.0005829521, y: 0.018644964, z: -0.081184976, w: 0.9965245}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: Scylla_rig_2_3:R_ball_jnt
+      parentName: Scylla_rig_2_3:R_ankle_jnt
+      position: {x: 0.00841775, y: 0.009298117, z: 0.0015124945}
+      rotation: {x: 0.70363647, y: 0.69079685, z: 0.09459766, w: -0.13691884}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000004}
+    - name: Scylla_rig_2_3:R_toe_jnt
+      parentName: Scylla_rig_2_3:R_ball_jnt
+      position: {x: 0.0055226497, y: -0.00007138976, z: -0.0012176809}
+      rotation: {x: -0.9999168, y: -0.0030433529, z: -0.0072041433, w: 0.010266715}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000007}
+    - name: Scylla_rig_2_3:L_hip_jnt
+      parentName: Scylla_rig_2_3:root_jnt1
+      position: {x: -0.006045071, y: 0.0003857198, z: -0.009577183}
+      rotation: {x: 0.066176176, y: 0.95990646, z: 0.270934, w: 0.028197974}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000007}
+    - name: Scylla_rig_2_3:L_knee_jnt
+      parentName: Scylla_rig_2_3:L_hip_jnt
+      position: {x: -0.045507483, y: -0.0017849497, z: 0.0005576599}
+      rotation: {x: 0.00026877664, y: 0.008004911, z: 0.01718176, w: 0.9998203}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: Scylla_rig_2_3:L_ankle_jnt
+      parentName: Scylla_rig_2_3:L_knee_jnt
+      position: {x: -0.043740578, y: -0.00020909948, z: -0.00016474833}
+      rotation: {x: 0.038110632, y: -0.6619776, z: -0.27823323, w: -0.6949242}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.99999976}
+    - name: Scylla_rig_2_3:L_ball_jnt
+      parentName: Scylla_rig_2_3:L_ankle_jnt
+      position: {x: 0.00069976546, y: -0.0029068808, z: -0.011959766}
+      rotation: {x: 0.10875263, y: -0.47702622, z: 0.69811785, w: 0.52273345}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Scylla_rig_2_3:L_toe_jnt
+      parentName: Scylla_rig_2_3:L_ball_jnt
+      position: {x: -0.0055226516, y: 0.000071383976, z: 0.0012176968}
+      rotation: {x: 0.99991673, y: 0.0030431445, z: 0.007204323, w: -0.010266869}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000008}
+    - name: Scylla_rig_2_3:Ctrls_Switches_grp
+      parentName: Scylla_rig_2_3:World_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Ctrl_grp
+      parentName: Scylla_rig_2_3:Ctrls_Switches_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Spine_grp
+      parentName: Scylla_rig_2_3:Ctrl_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Spine_CTJ_grp
+      parentName: Scylla_rig_2_3:Spine_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Root_CTJ
+      parentName: Scylla_rig_2_3:Spine_CTJ_grp
+      position: {x: 0.007130275, y: 0.092476524, z: -0.0029954603}
+      rotation: {x: -0.56854296, y: 0.4216978, z: -0.42043632, w: 0.56759423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Hip_CTJ
+      parentName: Scylla_rig_2_3:Spine_CTJ_grp
+      position: {x: 0.0024243442, y: 0.107882686, z: -0.0037549122}
+      rotation: {x: -0.48687583, y: 0.508639, z: -0.5043092, w: 0.49991056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Chest_CTJ
+      parentName: Scylla_rig_2_3:Spine_CTJ_grp
+      position: {x: 0.0028537225, y: 0.11914346, z: -0.0023873448}
+      rotation: {x: -0.5027305, y: 0.38263053, z: -0.51823324, w: 0.5764463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Sternum_CTJ
+      parentName: Scylla_rig_2_3:Spine_CTJ_grp
+      position: {x: 0.0011750566, y: 0.13036765, z: -0.004468147}
+      rotation: {x: 0.41103214, y: -0.46792442, z: 0.67457575, w: -0.39629155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Spine_ctrl_grp
+      parentName: Scylla_rig_2_3:Spine_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:root_ctrl_grp
+      parentName: Scylla_rig_2_3:Spine_ctrl_grp
+      position: {x: -0.0010155463, y: 0.095507845, z: -0.002997325}
+      rotation: {x: -0.50021464, y: 0.50090057, z: -0.49979305, w: 0.49909002}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Root_ctrl
+      parentName: Scylla_rig_2_3:root_ctrl_grp
+      position: {x: 0.0030199997, y: -0.000020000001, z: 0.00815}
+      rotation: {x: 0, y: -0.14768858, z: -0, w: 0.98903394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:hip_ctrl_grp
+      parentName: Scylla_rig_2_3:Root_ctrl
+      position: {x: -0.016108355, y: 0.00076971477, z: -0.000020655772}
+      rotation: {x: 0.0078928415, y: -0.0063579637, z: 0.0065860753, w: 0.999927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:hip_ctrl
+      parentName: Scylla_rig_2_3:hip_ctrl_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.16619222, z: -0, w: 0.9860934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:chest_ctrl_grp
+      parentName: Scylla_rig_2_3:hip_ctrl
+      position: {x: -0.011290194, y: -0.0011689527, z: 0.0001577781}
+      rotation: {x: -0.011813837, y: 0.0053774896, z: -0.006550057, w: 0.9998943}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:chest_ctrl
+      parentName: Scylla_rig_2_3:chest_ctrl_grp
+      position: {x: 5.3290704e-17, y: 9.7592136e-11, z: -0.000012387994}
+      rotation: {x: 0.11251793, y: -0.1073442, z: -0.03197739, w: 0.9873168}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:sternum_ctrl_grp
+      parentName: Scylla_rig_2_3:chest_ctrl
+      position: {x: -0.011476033, y: 0.0011958815, z: 0.00001830924}
+      rotation: {x: 0.006163478, y: -0.0060417424, z: 0.001911162, w: 0.99996096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:sternum_ctrl
+      parentName: Scylla_rig_2_3:sternum_ctrl_grp
+      position: {x: -0.00000000318183, y: 3.569099e-11, z: 0.0000009093339}
+      rotation: {x: -0.028200606, y: 0.24942407, z: -0.10872818, w: 0.96185786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:head_FK_grp
+      parentName: Scylla_rig_2_3:sternum_ctrl
+      position: {x: -0.023255197, y: -0.0039485525, z: 0.0002998083}
+      rotation: {x: -0.0003441988, y: 0.006434874, z: 0.12093438, w: 0.9926396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:head_FK_ctrl
+      parentName: Scylla_rig_2_3:head_FK_grp
+      position: {x: -0.0003775072, y: -0.0018725019, z: -0.0037581031}
+      rotation: {x: 0.08794024, y: 0.08060529, z: -0.16382019, w: 0.9792509}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:arms_grp
+      parentName: Scylla_rig_2_3:sternum_ctrl
+      position: {x: 0.13435398, y: -0.0041660503, z: -0.0006812788}
+      rotation: {x: 0.50162363, y: -0.49722162, z: 0.49641195, w: 0.5046977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:arm_FK_ctrl_grp
+      parentName: Scylla_rig_2_3:arms_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_arm_FK_ctrl_grp
+      parentName: Scylla_rig_2_3:arm_FK_ctrl_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_shoulder_FK_FK_grp
+      parentName: Scylla_rig_2_3:L_arm_FK_ctrl_grp
+      position: {x: -0.012252745, y: 0.13860282, z: -0.0046681333}
+      rotation: {x: -0.6233646, y: -0.22774707, z: 0.2422012, w: 0.7077333}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_shoulder_FK_FK_ctrl
+      parentName: Scylla_rig_2_3:L_shoulder_FK_FK_grp
+      position: {x: -0.0001311792, y: 0.00009884506, z: -0.0019454675}
+      rotation: {x: 0.58025, y: -0.35484973, z: 0.33849093, w: 0.6502426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_elbow_FK_FK_grp
+      parentName: Scylla_rig_2_3:L_shoulder_FK_FK_ctrl
+      position: {x: -0.023090288, y: 0.0003377994, z: 0.000008718568}
+      rotation: {x: 0.00024323988, y: 0.006891734, z: 0.060953088, w: 0.99811685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_elbow_FK_FK_ctrl
+      parentName: Scylla_rig_2_3:L_elbow_FK_FK_grp
+      position: {x: -0.000011461002, y: 0.0000009093776, z: -0.000010572889}
+      rotation: {x: 0, y: 0.1330262, z: -0, w: 0.99111253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_wrist_FK_FK_grp
+      parentName: Scylla_rig_2_3:L_elbow_FK_FK_ctrl
+      position: {x: -0.02358472, y: -0.0000009093776, z: 0.000010572889}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_wrist_FK_FK_ctrl
+      parentName: Scylla_rig_2_3:L_wrist_FK_FK_grp
+      position: {x: -0.000011461002, y: 0.0000009093776, z: -0.000010572889}
+      rotation: {x: 0, y: -0.19774288, z: -0, w: 0.98025393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:group2
+      parentName: Scylla_rig_2_3:L_wrist_FK_FK_ctrl
+      position: {x: 0.000011461002, y: -0.0000009093776, z: 0.000010572889}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_palm_ctrl_grp
+      parentName: Scylla_rig_2_3:group2
+      position: {x: -0.0039284322, y: 0.00017870565, z: -0.00002701753}
+      rotation: {x: 0.1188132, y: 0.32183498, z: 0.3009626, w: 0.88979053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_palm_ctrl
+      parentName: Scylla_rig_2_3:L_palm_ctrl_grp
+      position: {x: -0.0016668928, y: 0.010137445, z: -0.0045565674}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_Finger_ctrls_grp
+      parentName: Scylla_rig_2_3:L_palm_ctrl
+      position: {x: 0.034110893, y: -0.055200696, z: -0.10043005}
+      rotation: {x: 0.6307372, y: -0.2843111, z: -0.27510372, w: 0.6675746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_base_thumb_FK_grp
+      parentName: Scylla_rig_2_3:L_Finger_ctrls_grp
+      position: {x: -0.054188505, y: 0.10778713, z: -0.00012066912}
+      rotation: {x: -0.6835271, y: 0.21276475, z: 0.12020145, w: 0.68780345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_1
+      parentName: Scylla_rig_2_3:L_base_thumb_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_1
+      parentName: Scylla_rig_2_3:FIST_L_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.06667462, y: -0.11114299, z: 0.1569958, w: 0.9790578}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_1
+      parentName: Scylla_rig_2_3:RELAX_L_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_1
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0039936546, y: -0.034814544, z: -0.07709729, w: 0.99640757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_base_thumb_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_1
+      position: {x: 4.5504506e-11, y: -8.46114e-11, z: 7.6019996e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_mid_thumb_FK_grp
+      parentName: Scylla_rig_2_3:L_base_thumb_FK_ctrl
+      position: {x: -0.0024065196, y: -0.0004938793, z: -0.00085116853}
+      rotation: {x: 0, y: 0.056159485, z: -0, w: 0.99842185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_2
+      parentName: Scylla_rig_2_3:L_mid_thumb_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_2
+      parentName: Scylla_rig_2_3:FIST_L_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.044823974, y: -0.100087255, z: -0.044402108, w: 0.99297625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_2
+      parentName: Scylla_rig_2_3:RELAX_L_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_2
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.033801828, y: -0.059841823, z: -0.037872523, w: 0.9969163}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_mid_thumb_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_2
+      position: {x: 8.881784e-18, y: 2.220446e-18, z: -4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_base_pointer_FK_grp
+      parentName: Scylla_rig_2_3:L_Finger_ctrls_grp
+      position: {x: -0.056864947, y: 0.10506447, z: -0.0015844299}
+      rotation: {x: -0.6537294, y: 0.2169331, z: 0.20142116, w: 0.69642484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_3
+      parentName: Scylla_rig_2_3:L_base_pointer_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_3
+      parentName: Scylla_rig_2_3:FIST_L_3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.069091514, y: -0.010622091, z: 0.09050575, w: 0.9934396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_3
+      parentName: Scylla_rig_2_3:RELAX_L_3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_3
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.020086756, z: -0, w: 0.99979824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_base_pointer_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_3
+      position: {x: -1.1396544e-10, y: -1.6433359e-10, z: 7.4258724e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_mid_pointer_FK_grp
+      parentName: Scylla_rig_2_3:L_base_pointer_FK_ctrl
+      position: {x: -0.0027228834, y: 0.0010198998, z: -0.0017911848}
+      rotation: {x: 0.0046920786, y: -0.012584156, z: 0.04645852, w: 0.99882996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_4
+      parentName: Scylla_rig_2_3:L_mid_pointer_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_4
+      parentName: Scylla_rig_2_3:FIST_L_4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.13054955, w: 0.9914418}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_4
+      parentName: Scylla_rig_2_3:RELAX_L_4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_4
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_mid_pointer_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_4
+      position: {x: 1.9721522e-33, y: -1.7763568e-17, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_top_pointer_FK_grp
+      parentName: Scylla_rig_2_3:L_mid_pointer_FK_ctrl
+      position: {x: -0.0015571673, y: 0.0006412218, z: -0.0010206379}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_5
+      parentName: Scylla_rig_2_3:L_top_pointer_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_5
+      parentName: Scylla_rig_2_3:FIST_L_5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.14716628, y: 0.035370126, z: 0.06056144, w: 0.9866222}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_5
+      parentName: Scylla_rig_2_3:RELAX_L_5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_5
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_top_pointer_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_5
+      position: {x: -1.9721522e-33, y: 1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_base_fu_FK_grp
+      parentName: Scylla_rig_2_3:L_Finger_ctrls_grp
+      position: {x: -0.057503283, y: 0.10296857, z: -0.002182087}
+      rotation: {x: -0.6307372, y: 0.2843111, z: 0.27510372, w: 0.6675746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_6
+      parentName: Scylla_rig_2_3:L_base_fu_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_6
+      parentName: Scylla_rig_2_3:FIST_L_6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.11666178, w: 0.99317175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_6
+      parentName: Scylla_rig_2_3:RELAX_L_6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_6
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.009272374, z: -0, w: 0.999957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_base_fu_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_6
+      position: {x: -2.2955003e-10, y: -1.536515e-10, z: 2.5117393e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_mid_fu_FK_grp
+      parentName: Scylla_rig_2_3:L_base_fu_FK_ctrl
+      position: {x: -0.0014264254, y: 0.0012533421, z: -0.001420887}
+      rotation: {x: -0.024288332, y: 0.03534462, z: -0.03424221, w: 0.998493}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_7
+      parentName: Scylla_rig_2_3:L_mid_fu_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_7
+      parentName: Scylla_rig_2_3:FIST_L_7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.10138874, y: 0.0034746933, z: 0.10481737, w: 0.9893036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_7
+      parentName: Scylla_rig_2_3:RELAX_L_7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_7
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_mid_fu_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_7
+      position: {x: -6.52558e-13, y: -1.1529355e-11, z: -1.6822384e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_top_fu_FK_grp
+      parentName: Scylla_rig_2_3:L_mid_fu_FK_ctrl
+      position: {x: -0.001889022, y: 0.0008785774, z: -0.00157149}
+      rotation: {x: -0.14625804, y: 0.082046084, z: -0.1567631, w: 0.9732946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_8
+      parentName: Scylla_rig_2_3:L_top_fu_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_8
+      parentName: Scylla_rig_2_3:FIST_L_8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_8
+      parentName: Scylla_rig_2_3:RELAX_L_8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_8
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_top_fu_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_8
+      position: {x: 8.881784e-18, y: 1.6653344e-17, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_base_ring_FK_grp
+      parentName: Scylla_rig_2_3:L_Finger_ctrls_grp
+      position: {x: -0.05638492, y: 0.1019854, z: -0.0031372448}
+      rotation: {x: -0.6307372, y: 0.2843111, z: 0.27510372, w: 0.6675746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_9
+      parentName: Scylla_rig_2_3:L_base_ring_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_9
+      parentName: Scylla_rig_2_3:FIST_L_9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0002011465, y: -0.033137713, z: 0.14376974, w: 0.98905617}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_9
+      parentName: Scylla_rig_2_3:RELAX_L_9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_9
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.059295326, z: -0, w: 0.9982405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_base_ring_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_9
+      position: {x: -2.404934e-10, y: -1.1012055e-10, z: -8.493961e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_mid_ring_FK_grp
+      parentName: Scylla_rig_2_3:L_base_ring_FK_ctrl
+      position: {x: -0.0020053496, y: 0.0009780971, z: -0.0026167782}
+      rotation: {x: 0.045911293, y: 0.04141677, z: -0.011110488, w: 0.99802476}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_10
+      parentName: Scylla_rig_2_3:L_mid_ring_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_10
+      parentName: Scylla_rig_2_3:FIST_L_10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.14466469, y: 0.14347717, z: -0.00921157, w: 0.9789799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_10
+      parentName: Scylla_rig_2_3:RELAX_L_10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_10
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_mid_ring_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_10
+      position: {x: 1.7763568e-17, y: -8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_top_ring_FK_grp
+      parentName: Scylla_rig_2_3:L_mid_ring_FK_ctrl
+      position: {x: -0.0010828507, y: 0.00058104465, z: -0.0016548054}
+      rotation: {x: 0, y: 0.022989515, z: -0, w: 0.9997357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_11
+      parentName: Scylla_rig_2_3:L_top_ring_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_11
+      parentName: Scylla_rig_2_3:FIST_L_11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_11
+      parentName: Scylla_rig_2_3:RELAX_L_11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_11
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_top_ring_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_11
+      position: {x: -1.11022296e-17, y: -1.7763568e-17, z: -2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_base_pinki_FK_grp
+      parentName: Scylla_rig_2_3:L_Finger_ctrls_grp
+      position: {x: -0.05474065, y: 0.100957595, z: -0.0026714962}
+      rotation: {x: -0.659159, y: 0.29585516, z: 0.27545604, w: 0.634116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_12
+      parentName: Scylla_rig_2_3:L_base_pinki_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_12
+      parentName: Scylla_rig_2_3:FIST_L_12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.12783661, y: -0.0113329915, z: 0.00015041775, w: 0.9917305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_12
+      parentName: Scylla_rig_2_3:RELAX_L_12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_12
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.05135433, y: 0.088865876, z: 0.003955255, w: 0.994711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_base_pinki_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_12
+      position: {x: -1.659235e-10, y: -1.6002104e-10, z: -5.671098e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_mid_pinki_FK_grp
+      parentName: Scylla_rig_2_3:L_base_pinki_FK_ctrl
+      position: {x: -0.000847467, y: 0.0012631908, z: -0.0018462811}
+      rotation: {x: -0.04843091, y: 0.088636525, z: -0.012086292, w: 0.99481255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_13
+      parentName: Scylla_rig_2_3:L_mid_pinki_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_13
+      parentName: Scylla_rig_2_3:FIST_L_13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.07548948, y: 0.072065145, z: -0.0057876226, w: 0.9945223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_13
+      parentName: Scylla_rig_2_3:RELAX_L_13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_13
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_mid_pinki_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_13
+      position: {x: -8.881784e-18, y: -1.3322676e-17, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_top_pinki_FK_grp
+      parentName: Scylla_rig_2_3:L_mid_pinki_FK_ctrl
+      position: {x: -0.0007071439, y: 0.0007262342, z: -0.0016465326}
+      rotation: {x: 0, y: -0.038046554, z: -0, w: 0.999276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_L_14
+      parentName: Scylla_rig_2_3:L_top_pinki_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAX_L_14
+      parentName: Scylla_rig_2_3:FIST_L_14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_HAND_L_14
+      parentName: Scylla_rig_2_3:RELAX_L_14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_L_14
+      parentName: Scylla_rig_2_3:SPREAD_HAND_L_14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_top_pinki_FK_ctrl
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_L_14
+      position: {x: 4.440892e-18, y: -8.881784e-18, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_arm_FK_ctrl_grp
+      parentName: Scylla_rig_2_3:arm_FK_ctrl_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_shoulder_FK_grp
+      parentName: Scylla_rig_2_3:R_arm_FK_ctrl_grp
+      position: {x: 0.0102258, y: 0.138587, z: -0.00466912}
+      rotation: {x: 0.66358393, y: -0.22499314, z: -0.23873654, w: 0.6723388}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_shoulder_FK_ctrl
+      parentName: Scylla_rig_2_3:R_shoulder_FK_grp
+      position: {x: -0.0021439367, y: -0.00028025723, z: -0.003394213}
+      rotation: {x: 0.7958977, y: -0.39946884, z: -0.19877852, w: 0.409217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_elbow_FK_grp
+      parentName: Scylla_rig_2_3:R_shoulder_FK_ctrl
+      position: {x: 0.02321581, y: -0.000000007249849, z: -0.00000041994832}
+      rotation: {x: 0.00024323988, y: 0.006891734, z: 0.060953088, w: 0.99811685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_elbow_FK_ctrl
+      parentName: Scylla_rig_2_3:R_elbow_FK_grp
+      position: {x: 2.4868996e-16, y: 1.8307577e-15, z: -3.5527136e-17}
+      rotation: {x: 0, y: 0.5947666, z: -0, w: 0.8038984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_wrist_FK_grp
+      parentName: Scylla_rig_2_3:R_elbow_FK_ctrl
+      position: {x: 0.023595968, y: 0.000000024874133, z: -0.00000031160695}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_wrist_FK_ctrl
+      parentName: Scylla_rig_2_3:R_wrist_FK_grp
+      position: {x: 3.5527135e-16, y: 2.6256774e-15, z: 7.105427e-17}
+      rotation: {x: -0.24949868, y: 0.029177042, z: -0.14118686, w: 0.9575831}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_palm_ctrl_grp
+      parentName: Scylla_rig_2_3:R_wrist_FK_ctrl
+      position: {x: 0.0037630536, y: -0.0000048837337, z: 0.000017132214}
+      rotation: {x: 0.1188132, y: 0.32183498, z: 0.3009626, w: 0.88979053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_palm_ctrl
+      parentName: Scylla_rig_2_3:R_palm_ctrl_grp
+      position: {x: 0.0027697897, y: -0.010918028, z: 0.0034310156}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_fingers_ctrl_grp
+      parentName: Scylla_rig_2_3:R_palm_ctrl
+      position: {x: -0.04688997, y: 0.043880504, z: 0.101785235}
+      rotation: {x: -0.6439993, y: 0.22928075, z: -0.2755971, w: 0.67582655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_base_thumb_FK_grp
+      parentName: Scylla_rig_2_3:R_fingers_ctrl_grp
+      position: {x: 0.053008556, y: 0.10754416, z: -0.00041149638}
+      rotation: {x: 0.6520418, y: -0.24962072, z: 0.2559889, w: 0.6685811}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_14
+      parentName: Scylla_rig_2_3:R_base_thumb_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_1
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_1
+      parentName: Scylla_rig_2_3:SPREAD_R_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.05386748, y: 0.01333426, z: 0.10936958, w: 0.9924509}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_1
+      parentName: Scylla_rig_2_3:FIST_R_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_base_thumb_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_1
+      position: {x: 7.8273416e-11, y: 1.9609864e-10, z: 9.956528e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_mid_thumb_FK_grp
+      parentName: Scylla_rig_2_3:R_base_thumb_FK_ctrl
+      position: {x: 0.0023143392, y: -0.00028356176, z: 0.00037277635}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_13
+      parentName: Scylla_rig_2_3:R_mid_thumb_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_2
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_2
+      parentName: Scylla_rig_2_3:SPREAD_R_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00901961, y: -0.05624221, z: 0.15809041, w: 0.98578036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_2
+      parentName: Scylla_rig_2_3:FIST_R_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_mid_thumb_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_2
+      position: {x: 8.881784e-18, y: 3.8857805e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_base_pointer_FK_grp
+      parentName: Scylla_rig_2_3:R_fingers_ctrl_grp
+      position: {x: 0.055452842, y: 0.105438896, z: -0.0014202183}
+      rotation: {x: 0.6506742, y: -0.2460694, z: 0.25944534, w: 0.6698963}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_12
+      parentName: Scylla_rig_2_3:R_base_pointer_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_3
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_3
+      parentName: Scylla_rig_2_3:SPREAD_R_3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.12884453, y: 0.045903143, z: 0.06881353, w: 0.98820883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_3
+      parentName: Scylla_rig_2_3:FIST_R_3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_base_pointer_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_3
+      position: {x: -0.00015131533, y: -0.00018147376, z: -0.00016226362}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_mid_pointer_FK_grp
+      parentName: Scylla_rig_2_3:R_base_pointer_FK_ctrl
+      position: {x: 0.0024655364, y: -0.0016355509, z: 0.002164564}
+      rotation: {x: -0.001316643, y: 0.076465674, z: -0.04254239, w: 0.99616337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_11
+      parentName: Scylla_rig_2_3:R_mid_pointer_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_4
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_4
+      parentName: Scylla_rig_2_3:SPREAD_R_4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.13791314, y: -0.02219428, z: 0.11001006, w: 0.98406565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_4
+      parentName: Scylla_rig_2_3:FIST_R_4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_mid_pointer_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_4
+      position: {x: 0.00015134804, y: 0.00010677269, z: 0.00021875117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_top_pointer_FK_grp
+      parentName: Scylla_rig_2_3:R_mid_pointer_FK_ctrl
+      position: {x: 0.0016131125, y: -0.0012302233, z: 0.0014382149}
+      rotation: {x: -0.058999404, y: -0.00961296, z: -0.10015904, w: 0.99317414}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_10
+      parentName: Scylla_rig_2_3:R_top_pointer_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_5
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_5
+      parentName: Scylla_rig_2_3:SPREAD_R_5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.056551307, y: -0.045720138, z: 0.102054745, w: 0.99211717}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_5
+      parentName: Scylla_rig_2_3:FIST_R_5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_top_pointer_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_5
+      position: {x: -6.661338e-18, y: 2.4424906e-17, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_base_fu_FK_grp
+      parentName: Scylla_rig_2_3:R_fingers_ctrl_grp
+      position: {x: 0.055136044, y: 0.1037275, z: -0.0022715467}
+      rotation: {x: 0.6439993, y: -0.22928075, z: 0.2755971, w: 0.67582655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_9
+      parentName: Scylla_rig_2_3:R_base_fu_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_6
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_6
+      parentName: Scylla_rig_2_3:SPREAD_R_6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.129636, y: 0.04613475, z: 0.06919468, w: 0.9880679}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_6
+      parentName: Scylla_rig_2_3:FIST_R_6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_base_fu_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_6
+      position: {x: 6.8730466e-11, y: 1.2922469e-10, z: 1.4627208e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_mid_fu_FK_grp
+      parentName: Scylla_rig_2_3:R_base_fu_FK_ctrl
+      position: {x: 0.0019946038, y: -0.0023144067, z: 0.001972498}
+      rotation: {x: 0.14220157, y: 0.036451917, z: -0.04555357, w: 0.98811686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_8
+      parentName: Scylla_rig_2_3:R_mid_fu_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_7
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_7
+      parentName: Scylla_rig_2_3:SPREAD_R_7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.08769896, y: 0.031570133, z: 0.080542006, w: 0.99238366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_7
+      parentName: Scylla_rig_2_3:FIST_R_7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_mid_fu_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_7
+      position: {x: -1.7763568e-17, y: 5.4400926e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_top_fu_FK_grp
+      parentName: Scylla_rig_2_3:R_mid_fu_FK_ctrl
+      position: {x: 0.0018095461, y: -0.00012548285, z: 0.0023148612}
+      rotation: {x: 0.0030882778, y: 0.02772681, z: 0.11065474, w: 0.9934673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_7
+      parentName: Scylla_rig_2_3:R_top_fu_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_8
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_8
+      parentName: Scylla_rig_2_3:SPREAD_R_8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.05932494, y: 0.055293173, z: 0.06915638, w: 0.9943041}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_8
+      parentName: Scylla_rig_2_3:FIST_R_8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_top_fu_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_8
+      position: {x: 1.110223e-18, y: 4.4408918e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_base_ring_FK_grp
+      parentName: Scylla_rig_2_3:R_fingers_ctrl_grp
+      position: {x: 0.054326348, y: 0.10277428, z: -0.0025899615}
+      rotation: {x: 0.6439993, y: -0.22928075, z: 0.2755971, w: 0.67582655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_6
+      parentName: Scylla_rig_2_3:R_base_ring_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_9
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_9
+      parentName: Scylla_rig_2_3:SPREAD_R_9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.129636, y: 0.04613475, z: 0.06919468, w: 0.9880679}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_9
+      parentName: Scylla_rig_2_3:FIST_R_9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_base_ring_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_9
+      position: {x: 1.34778985e-11, y: 8.6756394e-11, z: 9.567458e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_mid_ring_FK_grp
+      parentName: Scylla_rig_2_3:R_base_ring_FK_ctrl
+      position: {x: 0.00137372, y: -0.0017771194, z: 0.0027250845}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_5
+      parentName: Scylla_rig_2_3:R_mid_ring_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_10
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_10
+      parentName: Scylla_rig_2_3:SPREAD_R_10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.056284342, y: 0.047255024, z: 0.09135405, w: 0.99310297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_10
+      parentName: Scylla_rig_2_3:FIST_R_10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_mid_ring_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_10
+      position: {x: 2.220446e-18, y: 2.6645352e-17, z: 5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_top_ring_FK_grp
+      parentName: Scylla_rig_2_3:R_mid_ring_FK_ctrl
+      position: {x: 0.0015060422, y: -0.00066368363, z: 0.0018291689}
+      rotation: {x: 0.15196435, y: -0.021366647, z: -0.04481069, w: 0.98713845}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_4
+      parentName: Scylla_rig_2_3:R_top_ring_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_11
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_11
+      parentName: Scylla_rig_2_3:SPREAD_R_11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.18646301, y: 0.010665714, z: -0.006622571, w: 0.98238176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_11
+      parentName: Scylla_rig_2_3:FIST_R_11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_top_ring_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_11
+      position: {x: -0, y: 2.2204459e-17, z: 7.888609e-33}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_base_pinki_FK_grp
+      parentName: Scylla_rig_2_3:R_fingers_ctrl_grp
+      position: {x: 0.053097144, y: 0.10162905, z: -0.0028125613}
+      rotation: {x: 0.6439993, y: -0.22928075, z: 0.2755971, w: 0.67582655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_3
+      parentName: Scylla_rig_2_3:R_base_pinki_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_12
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_12
+      parentName: Scylla_rig_2_3:SPREAD_R_12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.12079426, y: 0.029597295, z: 0.056245346, w: 0.9906408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_12
+      parentName: Scylla_rig_2_3:FIST_R_12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_base_pinki_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_12
+      position: {x: -7.075822e-11, y: 3.2180095e-11, z: 3.2917846e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_mid_pinki_FK_grp
+      parentName: Scylla_rig_2_3:R_base_pinki_FK_ctrl
+      position: {x: 0.00095727283, y: -0.0005729117, z: 0.0016563847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_2
+      parentName: Scylla_rig_2_3:R_mid_pinki_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_13
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_13
+      parentName: Scylla_rig_2_3:SPREAD_R_13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.103596754, y: 0.06445069, z: 0.059773687, w: 0.9907275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_13
+      parentName: Scylla_rig_2_3:FIST_R_13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_mid_pinki_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_13
+      position: {x: -4.440892e-18, y: 3.5527136e-17, z: -2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_top_pinki_FK_grp
+      parentName: Scylla_rig_2_3:R_mid_pinki_FK_ctrl
+      position: {x: 0.00073256367, y: -0.0006780796, z: 0.0017769955}
+      rotation: {x: 0, y: 0.15180549, z: -0, w: 0.9884104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:CLOSED_FINGERS_R_1
+      parentName: Scylla_rig_2_3:R_top_pinki_FK_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:SPREAD_R_14
+      parentName: Scylla_rig_2_3:CLOSED_FINGERS_R_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FIST_R_14
+      parentName: Scylla_rig_2_3:SPREAD_R_14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.06333861, y: 0.05731816, z: 0.03141105, w: 0.9958495}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:RELAXED_R_14
+      parentName: Scylla_rig_2_3:FIST_R_14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_top_pinki_FK_ctrl
+      parentName: Scylla_rig_2_3:RELAXED_R_14
+      position: {x: -1.11022296e-17, y: 2.2204459e-17, z: 5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:arm_IK_ctrl_grp
+      parentName: Scylla_rig_2_3:arms_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:group1
+      parentName: Scylla_rig_2_3:arm_IK_ctrl_grp
+      position: {x: 0.047057033, y: 0.10990626, z: -0.0030869897}
+      rotation: {x: 0.92029417, y: -0.32130823, z: -0.0543145, w: 0.21649377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_arm_IK_grp
+      parentName: Scylla_rig_2_3:arm_IK_ctrl_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_wrist_IK_ctrl_grp
+      parentName: Scylla_rig_2_3:L_arm_IK_grp
+      position: {x: -0.042085584, y: 0.10269214, z: -0.0024714395}
+      rotation: {x: -0.66209346, y: -0.26597854, z: 0.32937944, w: 0.61838245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_wrist_IK_ctrl
+      parentName: Scylla_rig_2_3:L_wrist_IK_ctrl_grp
+      position: {x: 0.0009666914, y: 0.0005555916, z: 0.009395966}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_arm_IK
+      parentName: Scylla_rig_2_3:L_wrist_IK_ctrl
+      position: {x: -5.3290704e-17, y: -3.330669e-18, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_elbow_IK_ctrl_grp
+      parentName: Scylla_rig_2_3:L_wrist_IK_ctrl
+      position: {x: 0.02359618, y: -8.326672e-18, z: -1.0658141e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_elbow_IK_ctrl
+      parentName: Scylla_rig_2_3:L_elbow_IK_ctrl_grp
+      position: {x: 0.0011424453, y: 0.01286658, z: 0.00045809677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_wrist_IK_grp
+      parentName: Scylla_rig_2_3:arm_IK_ctrl_grp
+      position: {x: 0.054404106, y: 0.15369104, z: -0.0028683385}
+      rotation: {x: 0.70284504, y: 0.08378189, z: 0.15257238, w: 0.6897181}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_wrist_IK_ctrl
+      parentName: Scylla_rig_2_3:R_wrist_IK_grp
+      position: {x: -0.021295207, y: 0.0019757214, z: 0.038906872}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:ikHandle2
+      parentName: Scylla_rig_2_3:R_wrist_IK_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.1493477, y: -0.44881377, z: -0.28651053, w: 0.83317065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_elbow_IK_grp1
+      parentName: Scylla_rig_2_3:R_wrist_IK_ctrl
+      position: {x: -0.0029015683, y: -0.0027815863, z: -0.039216384}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_elbow_IK_ctrl
+      parentName: Scylla_rig_2_3:R_elbow_IK_grp1
+      position: {x: -0.012082824, y: -0.012171484, z: 0.019171523}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:hip_rotation_ctrl_grp
+      parentName: Scylla_rig_2_3:hip_ctrl
+      position: {x: 0.015948625, y: -0.00021110005, z: -0.00017901133}
+      rotation: {x: -0.007264604, y: 0.00634961, z: 0.10279234, w: 0.9946561}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:hip_rotation_ctrl_grp 1
+      parentName: Scylla_rig_2_3:hip_rotation_ctrl_grp
+      position: {x: 3.0198067e-16, y: -1.0569323e-15, z: -1.7902346e-17}
+      rotation: {x: -0.024850931, y: 0, z: -0, w: 0.9996912}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Legs_grp
+      parentName: Scylla_rig_2_3:Spine_grp
+      position: {x: 2.7755575e-19, y: -1.7763568e-17, z: 5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_leg_IK_grp
+      parentName: Scylla_rig_2_3:Legs_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_ankle_ctrl_grp
+      parentName: Scylla_rig_2_3:L_leg_IK_grp
+      position: {x: -0.010968412, y: 0.010040626, z: -0.0054429644}
+      rotation: {x: -0.49070495, y: -0.5068776, z: 0.478619, w: 0.5226926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_ankle_ctrl
+      parentName: Scylla_rig_2_3:L_ankle_ctrl_grp
+      position: {x: -0.00000765181, y: 0.0015028374, z: -0.0000005804982}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_foot_ctrl_grp
+      parentName: Scylla_rig_2_3:L_ankle_ctrl
+      position: {x: 0.000007695556, y: -0.00012695252, z: 0.00000058153444}
+      rotation: {x: -0.25299835, y: 0.6932087, z: 0.14285293, w: 0.6595806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_foot_ctrl
+      parentName: Scylla_rig_2_3:L_foot_ctrl_grp
+      position: {x: -0.0014955797, y: -0.00072864874, z: -0.01211683}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_heel_pivot_grp
+      parentName: Scylla_rig_2_3:L_foot_ctrl
+      position: {x: 0.0018955432, y: 0.005761788, z: 0.0032124184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_toe_pivot_grp
+      parentName: Scylla_rig_2_3:L_heel_pivot_grp
+      position: {x: 0.0021710093, y: -0.012156384, z: -0.0068282685}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_toe_yaw_grp
+      parentName: Scylla_rig_2_3:L_toe_pivot_grp
+      position: {x: -0.0018220503, y: 0.0048349528, z: 0.002678531}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_toe_roll_grp
+      parentName: Scylla_rig_2_3:L_toe_yaw_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.38268346, y: -0, z: -0, w: 0.92387956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_BtoT_Ik
+      parentName: Scylla_rig_2_3:L_toe_roll_grp
+      position: {x: 0.0021260486, y: -0.005197023, z: -0.001414292}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_AtoB_IK
+      parentName: Scylla_rig_2_3:L_toe_roll_grp
+      position: {x: -0.00004915694, y: -0.0006185899, z: 0.0010943825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_ball_roll_grp
+      parentName: Scylla_rig_2_3:L_toe_yaw_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_Leg_IK
+      parentName: Scylla_rig_2_3:L_ball_roll_grp
+      position: {x: -0.00040892116, y: -0.004371686, z: 0.015234113}
+      rotation: {x: -0.40291443, y: 0, z: -0, w: 0.91523767}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_knee_ctrl_grp
+      parentName: Scylla_rig_2_3:L_leg_IK_grp
+      position: {x: -0.00991224, y: 0.053784903, z: -0.0043933275}
+      rotation: {x: -0.49070495, y: -0.5068776, z: 0.478619, w: 0.5226926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_knee_ctrl
+      parentName: Scylla_rig_2_3:L_knee_ctrl_grp
+      position: {x: 0.0013902177, y: -0.039502747, z: 0.000100705176}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_leg_IK_grp
+      parentName: Scylla_rig_2_3:Legs_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_knee_ctrl_grp
+      parentName: Scylla_rig_2_3:R_leg_IK_grp
+      position: {x: 0.007872471, y: 0.053709514, z: -0.0033188902}
+      rotation: {x: 0.5228622, y: -0.47878972, z: -0.50670403, w: 0.49053702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_knee_ctrl
+      parentName: Scylla_rig_2_3:R_knee_ctrl_grp
+      position: {x: 3.0087335e-10, y: 0.015439273, z: -2.8503408e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_ankle_ctrl_grp
+      parentName: Scylla_rig_2_3:R_leg_IK_grp
+      position: {x: 0.008935792, y: 0.01013478, z: -0.006773869}
+      rotation: {x: 0.5228622, y: -0.47878972, z: -0.50670403, w: 0.49053702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_ankle_ctrl
+      parentName: Scylla_rig_2_3:R_ankle_ctrl_grp
+      position: {x: -0.00014, y: 0.000020000001, z: 0.00416}
+      rotation: {x: -0.24725269, y: 0, z: -0, w: 0.96895105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_foot_ctrl_grp
+      parentName: Scylla_rig_2_3:R_ankle_ctrl
+      position: {x: -5.5511148e-18, y: -4.6629366e-17, z: -3.330669e-18}
+      rotation: {x: 0.5228622, y: -0.47878972, z: -0.50670403, w: -0.49053702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_foot_ctrl
+      parentName: Scylla_rig_2_3:R_foot_ctrl_grp
+      position: {x: 0.003376279, y: -0.010429017, z: 0.005471375}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_heel_pivot_grp
+      parentName: Scylla_rig_2_3:R_foot_ctrl
+      position: {x: -0.0033762795, y: 0.00017169474, z: -0.005471375}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_toe_pivot_grp
+      parentName: Scylla_rig_2_3:R_heel_pivot_grp
+      position: {x: 0.0011122584, y: 0, z: 0.014068206}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_toe_yaw_grp
+      parentName: Scylla_rig_2_3:R_toe_pivot_grp
+      position: {x: -0, y: 0, z: -0.0055086496}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_toe_roll_grp
+      parentName: Scylla_rig_2_3:R_toe_yaw_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_AtoB_IK
+      parentName: Scylla_rig_2_3:R_toe_roll_grp
+      position: {x: 0.0012814996, y: 0.0012792909, z: -5.0117833e-11}
+      rotation: {x: 0.41344294, y: -0.3666094, z: -0.5973597, w: 0.5812263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_BtoT_IK
+      parentName: Scylla_rig_2_3:R_toe_roll_grp
+      position: {x: -2.8198896e-10, y: 0.0012733709, z: 0.0055086496}
+      rotation: {x: 0.7029924, y: -0.004006775, z: 0.7111645, w: -0.005553524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_ball_roll_grp
+      parentName: Scylla_rig_2_3:R_toe_yaw_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_Leg_IK
+      parentName: Scylla_rig_2_3:R_ball_roll_grp
+      position: {x: -0.0011122582, y: 0.010257322, z: -0.008559556}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:FK_IK_switches
+      parentName: Scylla_rig_2_3:Ctrls_Switches_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:L_arm_IK_FK_switch
+      parentName: Scylla_rig_2_3:FK_IK_switches
+      position: {x: -0.07874845, y: 0.13443455, z: -0.0011406104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:R_arm_IK_FK
+      parentName: Scylla_rig_2_3:FK_IK_switches
+      position: {x: 0.07809298, y: 0.13443455, z: -0.0011406104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Geo_grp
+      parentName: Marijane_IdleCycle_Final(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:pCylinder10
+      parentName: Scylla_rig_2_3:Geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Don_t_mess_with_grp
+      parentName: Marijane_IdleCycle_Final(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Spine_ik
+      parentName: Scylla_rig_2_3:Don_t_mess_with_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Spine_IK_curve_grp
+      parentName: Scylla_rig_2_3:Spine_ik
+      position: {x: 2.7755575e-19, y: 0, z: -5.689893e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scylla_rig_2_3:Spine_IK_handle
+      parentName: Scylla_rig_2_3:Spine_ik
+      position: {x: 0.0042031263, y: 0.14061807, z: -0.0047791963}
+      rotation: {x: 0.4525069, y: -0.4558078, z: 0.5833031, w: -0.49722666}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

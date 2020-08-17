@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Menu.unity
     guid: 94c8264565cb63f49853e0db3917fb10
   - enabled: 0
-    path: Assets/Scenes/Scene_Rooftop.unity
-    guid: d268158a797c800478011cc8b31ee7e1
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/Scene_FINAL_ENVIRONMENT.unity
     guid: 37ed6884d3361bb478eb45664ce75f71
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 8d3736b2ee5c1564bbd5339efcd70e3a
   m_configObjects: {}
